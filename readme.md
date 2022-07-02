@@ -26,5 +26,5 @@ var countCar=23;
 var GameOver=False;
 console.log(typeof(fruits));
 console.log(typeof(GameOver));
-console.log(typeof(countCar));
+console.log("this var  of tpe is "+typeof(countCar)); /* concatination with plus sign +    */
 ```

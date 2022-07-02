@@ -1,0 +1,82 @@
+1---
+netscape vs IE
+netscape fail
+mosaic browser   >> firefox
+html static  all functionality request from server
+anderson  first internt browser   nestscape  team small lang encorpate in browser
+Brandan Eich programmer  create java script 10 day
+imagin js not ther internat   switch of js in setting browser
+java script wasnt called java script   Brandan  was created called live script
+microsoft decide reverse engineer  js script  it was confusng
+euoropean   standardize   ecma script ES6 ,.. ecma euoropean computer manifactue assouciate
+java compile lang  js script  iterpater lang
+comile   c java swift     interpretd  js python ruby
+js suporrted all major browser
+ios app swift  android app java 
+
+2---
+inspect developer> source tab > >> button >snippp
+
+go > mdn  js doc
+alert[function]("message");[end]    grama of lang  human say:"hello" .  grama human
+https://github.com/rwaldron/idiomatic.js/
+elemet of style 
+3--
+data type   ""   string  numbers 1234    boolean  tru  false
+typeof()
+prompt("")~  input
+4----
+variable
+var[key word] my_name[name]= "scarlett"[value ] ;[end]
+""+var + ""
+hard reload   clean memory    meean value of var clean
+8---
+naming  and convention     suitable name for var
+name  not  number
+namy not space  name can name123$_  
+js script camel casing  just calle humps higher than is head 
+first letter of word lower  next subsequent word first letter capital
+http://therapistfinder.com/
+ 
+example  myNameIs="scarlett"
+10--
+string  concatinaion   + sign
+
+11-
+length property
+/*     */  comment
+12--
+slice(x,y)  x where start y where end up examp   name="angela" name.slice(0,1)
+programmer always number 0 1 2 ..
+13--
+string
+toUpperCase()
+toLowerCase
+
+15----
+arthmetric and modulo operator in js
+var c=2+3 [addition] var d=10-2 [substraction] var b=2*2[multiplication]   var=4/2 [division] 
+var f =9%6  [modulo] little bit weird reminder of devision
+
+16----
+var x=x+1   ~  x++ [increment] and  x-1 ~ x--[decrement]   x=x+2 ~ x+=2 -= /= *=
+ 
+17--
+function[keyword] name(){}[dont have semi colon ;]
+call function >> name();  
+in snippets   ctrl+f  replace  a to b   alert to console.log 
+console.log()
+ for developer  for print and debug
+18---
+https://stanford.edu/~cpiech/karel/ide.html
+elemet style   add indent for block of code 
+
+19---
+when confuse    larger than fractal
+
+22---
+input function
+Math.floor(x)  round lower than
+25-
+return output
+line of code  function this keyword    break function 

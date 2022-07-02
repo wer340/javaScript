@@ -1,0 +1,52 @@
+1---
+random
+Math.random();[0-0.9999999999999999]
+Math.floor()
+love score
+
+
+2----
+if control flow
+if(track==="clear"){goStright();} else{turnRight();}[=== equal]
+[=== , >  ,  <]
+
+3----
+
+===  equal 
+!==  not equal 
+> greater than
+<  lesser than
+>= greater than and equal
+<= lesser and equal 
+.
+typeof()
+== two equal sign  doesnt care data type  but === three equal sign just care data type
+example  var a="2"; var b=2;   if (a==b) {} yes condition    if (a===b){} no condition
+
+4----
+
+&&[ampersand] and  combine and comparitive
+|| [pipe sign] or    
+! [exclamition sign] not
+
+6-----
+leap year
+
+9---
+list
+array
+list.includes(array) if array in list true    return bolean
+10---
+https://blog.codinghorror.com/why-cant-programmers-program/
+list.push()  adding array to list
+list.pop() remove   and return remove item
+else if (condition){}
+
+https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/
+
+13---
+while(){}
+https://www.99-bottles-of-beer.net/lyrics.html
+15---
+for loop
+for(var i=0[start];i<100[end];i++[change]){}

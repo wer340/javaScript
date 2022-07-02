@@ -47,7 +47,7 @@ if (a===b){/* reject condition */
 
 -----
 ```js
-list.includes(array)  /* check this value exist this list  return boolean true or false */
+list.includes(value)  /* check this value exist this list  return boolean true or false */
 list.push() /* add item to list  */
 list.pop() /* remove item to list return remoed item  */
 ```

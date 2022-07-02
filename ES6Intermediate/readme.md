@@ -37,5 +37,6 @@ if (a===b){/* reject condition */
 #  combine and comparitive
 |co&co|  sign|
 |----|------|
-|&&|equal|
-| [||] |not equal|
+|&&|ampersand|
+| \|\| |pipe sign|
+|!|exclamition|

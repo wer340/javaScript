@@ -1,5 +1,4 @@
-![function](https://raw.githubusercontent.com/wer340/javaScript/main/ES6/image/syntax.png)
-![var](https://raw.githubusercontent.com/wer340/javaScript/main/ES6/image/var.png)
+
 ## Principles of Writing Consistent, Idiomatic JavaScript
 This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
 this [adress](https://github.com/rwaldron/idiomatic.js) 
@@ -16,9 +15,11 @@ slice(x,y)  x where start y where end up
 ```js
 var name="scarlett"
 name.slice(0,3) /* expect scar   */
+name.toUpperCase()
+name.toLowerCase
 ```
 # arthmetric and modulo operator in js
-###  x=x+2 ~ x+=2 -= /= *=
+###  x=x+2 ~ x+=2 and -=  , /=  ,  *=
 |operator|  symbol|
 |----|------|
 |addition|var c=2+3|
@@ -26,6 +27,17 @@ name.slice(0,3) /* expect scar   */
 |multiplication|var b=2*2|
 |division|var=4/2|
 |modulo|var f =9%6|
-| var x=x+1|x++|increment|
-|var x=x-1|x--|decrement|
-
+|x++|increment|
+|x--|decrement|
+------
+ console.log()
+ for developer  for print and debug
+ ### js script camel casing  just calle humps higher than is head first letter of word lower  next subsequent word first letter capital
+```js
+Math.floor(x)  /* round lower than  */
+```
+ 
+ ![camel](https://raw.githubusercontent.com/wer340/javaScript/main/ES6/image/camel.png)
+ ![snipp](https://raw.githubusercontent.com/wer340/javaScript/main/ES6/image/snipp.png)
+ ![function](https://raw.githubusercontent.com/wer340/javaScript/main/ES6/image/syntax.png)
+![var](https://raw.githubusercontent.com/wer340/javaScript/main/ES6/image/var.png)

@@ -21,9 +21,9 @@ name.slice(0,3) /* expect scar   */
 var c=2+3 [addition] var d=10-2 [substraction] var b=2*2[multiplication]   var=4/2 [division] 
 var f =9%6  [modulo] little bit weird reminder of devision
 var x=x+1   ~  x++ [increment] and  x-1 ~ x--[decrement]   x=x+2 ~ x+=2 -= /= *=
-|operator|  symbol|-----|operator|  symbol|
-|----|------|----|------|---------|--------|
-|addition|var c=2+3|----|var x=x+1|increment|
+|operator|  symbol|operator|  symbol|
+|----|------|----|---------|--------|
+|addition|var c=2+3|var x=x+1|increment|
 | substraction|var d=10-2|
 |multiplication|var b=2*2|
 |division|var=4/2|

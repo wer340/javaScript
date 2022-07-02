@@ -16,3 +16,15 @@ european standardize `ecma` script ES6 ,.. ecma european computer manufacture as
 ##### js suporrted all major browser
 inspect developer> source tab > >> button >snippp
 
+# tyep of data 
++ string
++ number
++ boolean
+```js 
+var fruits="banana";
+var countCar=23;
+var GameOver=False;
+console.log(typeof(fruits));
+console.log(typeof(GameOver));
+console.log(typeof(countCar));
+```

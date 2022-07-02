@@ -1,7 +1,7 @@
 # java Script 
 
 java script wasnt called java script Brandan was created and called `live script` microsoft decide reverse engineer `js script` it was confusng after some year 
-european standardize `ecma` script ES6 ,.. ecma european computer manufacture assouciate
+european standardize `ecma` script ES6 ,.. ecma `e`uropean `c`omputer `m`anufacture `a`ssouciate
 |lang|  type|
 |----|------|
 |java|compile|

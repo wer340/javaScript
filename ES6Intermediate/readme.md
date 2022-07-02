@@ -8,9 +8,13 @@ Math.floor()
 if(track==="clear"){
 goStright();
 } 
-else{
+else if(track==wall){
 turnRight();
-}  /* not semi colon end curly bracket */
+} 
+else{
+turnLeft()
+}/* not semi colon end curly bracket */
+
 ```
 |compare|  sign|
 |----|------|
@@ -40,3 +44,19 @@ if (a===b){/* reject condition */
 |&&|ampersand|and|
 | \|\| |pipe|or|
 |!|exclamition|not|
+
+-----
+```js
+list.includes(array)  /* check this value exist this list  return boolean true or false */
+list.push() /* add item to list  */
+list.pop() /* remove item to list return remoed item  */
+```
+# while loop  and for loop
+
+```js
+while(condition){
+/* statement */
+}
+for(var i=0 */[start]*/;i<100 */[end]*/;i++ */[change]*/){
+/* statement */
+}

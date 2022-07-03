@@ -8,6 +8,9 @@ string "scarlett"  numbers 1234    boolean  true  false
 ```js
 var name ="Scarlett"
 typeof(name) /*  string  */
+var price=prompt("give your cost price for automobile : ");
+typeof(price)  /*  string  */
+price=number(price)/*  yype is number  */  
 prompt("give your name") /*  similar input   */
 ```
 #### namy not space  name can `name123$_`

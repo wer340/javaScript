@@ -1,0 +1,82 @@
+1---
+boilt plate  <! doc  html body   />
+inject css to html
+3 ways
+<body onload="alert('d');">  onload to html that load js inline way
+it s  difficult its also hard to debug
+
+<script  type="text/javascript">
+internal way
+</script>
+
+external way
+
+<script src=""  charset="utf8"></script>
+
+css in head right of top
+
+js  at bottom right of bottom
+when elment   not seen in screen   we run js , and erro happen
+beacuse js can not find tag  that not appear in screen  null erro
+
+content of site  appear then js load up
+
+2---
+dom
+manipulate tag html   first inject
+html an css   after user click a button changes css and html then 
+reload page  if imossible and its a nightmare if so many people 
+do same thing
+dom slove this issue  dom catalog of html into invidiual object
+that we can select and manipulate 
+now the task converting html file into dom is done by the browser
+when you load web page and it what does that it turn each of these 
+element and thier associated data into a tree structure with a whole
+ bunch of objects you can select and manipulate
+tree model   with all realtionship mapped on digram
+head descend of html  and head and body sibiling
++++
+and eveything taht is contained inside your html document is contained
+in a n object called document 
+-----html tree generator plugin  chrome
+https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg/related
+inside dom  can have  property and method
+property  describe about object and method are thing  that the object
+can do
+  //4 property  with dot see property  car examp door seat  method drive brake ..
+car.numbersDoor;//expext number ++ also set property car.numbersDoor=2
+when call method like drive on car 
+car.drive();
+button property of button include inner html style firsyChild
+methods of button  click() appendChild() setAttribute()method a function can do all have  you needed
+selector into css .item {}  #portfolio{} h1{}
+combining selector   h1.item{}
+
+5---
+css property  font-size    > js camel case  convetion    fontSize
+background-color backgroundColor
+Style Object Properties
+https://www.w3schools.com/jsref/dom_obj_style.asp
+css for style  js for interactive  html for content
+dont should  js for style  only  change on fly
+like click then bgColor changed
+
+our style actually should be inside  css but problem is  that if we wanted
+our style to change on the fly say if a user click on a button  then
+the color of the background change then we kind of need to change that 
+using js and the style property right? as with all thing programming
+there s usually another way  and its usually better
+ now one of the thing that we can tap into is something called a class list
+and its a property of every dom object
+##classList list of class that are attached to this element the we found
+after  with method add()    add a class property
+leading to   principle   css insid css  js insid js and ..
+another property  ##textContent   for manipulate 
+innerHtml  give between elemnt  <strong>hello</strong>
+but textContent  give text not give tag strong and ..
+last way for manipulate  ##attribute
+.attributes  its  < tag till >   every thing attribute
+.getAtrributes()
+.setAttributes()
+
+

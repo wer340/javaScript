@@ -1,5 +1,5 @@
 # java Script 
-
+![codeCase](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-1/image/codeCasepng.png)
 java script wasnt called java script Brandan was created and called `live script` microsoft decide reverse engineer `js script` it was confusng after some year 
 european standardize `ecma` script ES6 ,.. ecma `e`uropean `c`omputer `m`anufacture `a`ssouciate
 |lang|  type|

@@ -12,3 +12,6 @@ when have parentheses>  ("click", function())
 you notice that immediately function run but want functio run after 
 listen click   
 function()  straight up method call 
+9--
+blance between short code  with expressive code
+aiming to keep your code realy readable

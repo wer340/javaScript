@@ -39,3 +39,16 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+.wrap{
+  position:relative;
+  clear: both;
+  height: 200px;
+}
+.photo1{
+  position: absolute;
+  left:150px;
+}
+.photo2{
+  position: absolute;
+  right: 150px;
+}

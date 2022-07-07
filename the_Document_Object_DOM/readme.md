@@ -59,21 +59,63 @@ property  describe about object and method are thing  that the object can do eac
 
  property  with dot see property  car example door `seat`[has]  method drive `brake`[does] ..
  ```js
+ button `property` of button include inner html style firsyChild
  car.numbersDoor; /*expext number */
  car.numbersDoor=2 /* also set property */
- 
+ ```
 when call `method` like drive on car 
  ```js
  car.drive();
  ```
-button property of button include inner html style firsyChild
 `methods` of button  `click()` `appendChild()` `setAttribute()` method a function can do all have  you needed
-▶ selector into css ✔✔ 
+##### ▶ selector into css ✔✔ 
 ```css
 .item {} 
 #portfolio{}
 h1{}
 h1.item{} /* ## combining selector   */
 ```
+
+---------
+css `property`  
+```css
+h1{
+font-size: 2rem;
+}
+```
+document.querySelector("h1").style.fontSize="2 rem" ;
+```js
+##### css ✔dash-line case  font-size ▶ fontSize   js ✔camel case  convetion    
+## see all property css to js  [w3school](https://www.w3schools.com/jsref/dom_obj_style.asp)
+----
+#### `very important `
+css for style  js for interactive  html for content dont should  js for style  only  change `on fly` like click then bgColor changed
++ css
++ html
++ js
+our style actually should be inside  css but problem is  that if we wanted our style to change `on the fly` say if a user click on a button  then
+the color of the background change then we kind of need to change that using js and the style property right? as with all thing programming
+there s usually `another way`  and its usually better  now one of the thing that we can tap into is something called a `class list`
+and its a property of every dom object
+## 🌿classList list of class that are attached to this element the we found after  with `method` add()  add a class property
+### leading to   principle   css insid css  js insid js and ..
+-----
+## another property  🌿textContent   for manipulate  innerHtml  give between elemnt  <strong>hello</strong>
+## but textContent  `give text` not give tag strong and ..
+
+
+## last way for manipulate  🌿attribute
+attributes  every thing inside <h1▶    `attributes`      ◀>
++ go to [tesla wikipedia](https://en.wikipedia.org/wiki/Nikola_Tesla)   test inspect ▶ source ▶console 
+```js
+document.querySelector("#firstHeading").style.fontSize="3rem";
+document.querySelector("#firstHeading").classList="infobox";
+document.querySelector("#firstHeading").textContent="General Elictric" ;
+document.querySelector(".infobox-image a").getAttribute("href");
+document.querySelector(".infobox-image a").setAttribute("href",'https://m.mediaY388_.jpg'); /* not run */
+document.querySelector(".infobox-image a").removeAttribute("href");
+
+.getAtrributes()
+.setAttributes()
 
 

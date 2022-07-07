@@ -7,10 +7,10 @@ function randNumber(){
 }
 function winDraw(dice1,dice2){
     if(dice1>dice2){
-        document.querySelector("h1").textContent="Player 1 win!"  
+        document.querySelector("h1").textContent="Player 1 win! 🚩"  
     }
     else if(dice1<dice2) {
-        document.querySelector("h1").textContent="Player 2 win!"    
+        document.querySelector("h1").textContent="Player 2 win! 🚩"    
     }
     else{
 

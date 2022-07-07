@@ -47,7 +47,15 @@ list.push(i);
 #### `===`  equal  , `!==`  not equal  , `>` greater than , `<`  lesser than , `>=` greater than and equal ,`<=` lesser and equal 
 #### `&&`[ampersand] and  combine and comparitive `||` [pipe sign] or `!` [exclamition sign] not
 
-   
+# manipulate with js
+```js
+document.querySelector("#firstHeading").style.fontSize="3rem";
+document.querySelector("#firstHeading").classList="infobox"; /* css into css js into js html to html  principle✔*/
+document.querySelector("#firstHeading").textContent="General Elictric" ; /* only text innerHtml return taag like <em>text</em> */
+document.querySelector(".infobox-image a").getAttribute("href"); 
+document.querySelector(".infobox-image a").setAttribute("href",'https://m.mediaY388_.jpg'); /* not run */
+document.querySelector(".infobox-image a").removeAttribute("href");
+```
 
 
 

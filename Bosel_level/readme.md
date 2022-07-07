@@ -25,8 +25,8 @@ elemnt.setAttribute("src",'image/'+NAME[n]+'.jpg');
 ```
 # Return Array  or individual  by Query
 ```js
-var name=document.querySelector("a");
-var list=document.querySelectorAll("a");
+var name=document.querySelector("a");/* dont array data type */
+var list=document.querySelectorAll("a");/* array data type */
 document.querySelectorAll("a")[1] /* one item of array */
 ```
 this element select  one item   it doesnt a list array data type   if exist many ancher [<a>] tag  queryselector pickup first of one of them 

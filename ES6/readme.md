@@ -22,7 +22,7 @@ name.toUpperCase();
 name.toLowerCase();
 var list=["Meryl Streep", "Ingrid Bergman", "Vivien Leigh", "Bette Davis", "Jodie Foster", "Katharine Hepburn"] 
 name.length /* 8    */
-list.length /*6
+list.length /*6 */
 ```
 # arthmetric and modulo operator in js
 ###  x=x+2 ~ x+=2 and -=  , /=  ,  *=

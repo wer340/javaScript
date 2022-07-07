@@ -100,10 +100,10 @@ the color of the background change then we kind of need to change that using js 
 there s usually `another way`  and its usually better  now one of the thing that we can tap into is something called a `class list`
 and its a property of every dom object
 ## 🌿classList list of class that are attached to this element the we found after  with `method` add()  add a class property
-### leading to   principle   css insid css  js insid js and ..
+###### leading to   principle   css insid css  js insid js and ..
 -----
 ## another property  🌿textContent   for manipulate  innerHtml  give between elemnt  <strong>hello</strong>
-## but textContent  `give text` not give tag strong and ..
+ but textContent  `give text` not give tag strong and ..
 
 
 ## last way for manipulate  🌿attribute

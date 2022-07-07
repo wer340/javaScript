@@ -16,10 +16,11 @@ prompt("give your name") /*  similar input   */
 #### namy not space  name can `name123$_`
 slice(x,y)  x where start y where end up
 ```js
-var name="scarlett"
+var name="scarlett";
 name.slice(0,3) /* expect scar   */
-name.toUpperCase()
-name.toLowerCase
+name.toUpperCase();
+name.toLowerCase();
+name.length /* 8    */
 ```
 # arthmetric and modulo operator in js
 ###  x=x+2 ~ x+=2 and -=  , /=  ,  *=

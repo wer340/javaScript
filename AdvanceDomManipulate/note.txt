@@ -1,0 +1,47 @@
+3---
+addListner 
+anonoumos function function(){}  without name
+
+4---
+wikipedia 
+deep over on addEventListner
+java script page wiki pedia
+the h1  can be acces in the console using this $0 variable
+if in console  $0 type h1 element up 
+now this is a little bit different from the function that we have
+seen so far because instead of just passing in string or number or other
+simple data type  we are actually passing in a function as an input
+
+
+### [type keyword]debugger;  then hold down shift+enter then type function
+High order function , are function that can take other function as input
+this feature available in a number of modern languages like javscript pascal
+swift java ruby python haskell c++ php c# Go .. but its not universal
+its not available in all programming languages
+
+important  
+which button click  among many button  have addEventListner
+we can figure out  idintiy of the button the trigger event by something 
+just called ## this#####and this it basicly idntity of the button that
+trigger eventListner 
+In most cases, the value of this is determined by how a function is called (runtime binding). It can't be set by assignment during execution, and it may be different each time the function is called.
+7---
+java Script object  
+dominating the web one object at a time
+object similar table  same dicitonary  in python
+
+has property of object with dot
+this way fraustrating if want many object 
+function nmae(a,b,c){
+this.age=a
+this.name=b
+this.movie=c
+}
+initila object
+var scarlett =new name(45,scarlett,avenger)
+
+drive: function(){}
+} 
+method in object
+
+

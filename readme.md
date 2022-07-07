@@ -36,13 +36,18 @@ list.length /*5 */
 # loop 
 ```js
 while(condition){  /* condition ▶5>3[True] */
-/* statement */
+Math.random();[0-0.9999999999999999] /* 16 digit */
+Math.floor()
 }
+var list=[];
 for(var i=0 */[start]*/;i<100 */[end]*/;i++ */[change]*/){
-/* statement */
+list.push(i);
 }
 ```
 #### `===`  equal  , `!==`  not equal  , `>` greater than , `<`  lesser than , `>=` greater than and equal ,`<=` lesser and equal 
+#### `&&`[ampersand] and  combine and comparitive `||` [pipe sign] or `!` [exclamition sign] not
+
+   
 
 
 

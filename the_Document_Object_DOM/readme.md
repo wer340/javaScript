@@ -114,7 +114,7 @@ document.querySelector("#firstHeading").textContent="General Elictric" ;
 document.querySelector(".infobox-image a").getAttribute("href");
 document.querySelector(".infobox-image a").setAttribute("href",'https://m.mediaY388_.jpg'); /* not run */
 document.querySelector(".infobox-image a").removeAttribute("href");
-
+```
 .getAtrributes()
 .setAttributes()
 

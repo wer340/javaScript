@@ -29,4 +29,7 @@ var GameOver=False;
 console.log(typeof(fruits));
 console.log(typeof(GameOver));
 console.log("this var  of tpe is "+typeof(countCar)); /* concatination with plus sign +    */
+var list=["Meryl Streep", "Ingrid Bergman", "Vivien Leigh", "Bette Davis", "Jodie Foster", "Katharine Hepburn"] 
+name.length /* 8    */
+list.length /*6 */
 ```

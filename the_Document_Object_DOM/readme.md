@@ -83,8 +83,10 @@ h1{
 font-size: 2rem;
 }
 ```
-document.querySelector("h1").style.fontSize="2 rem" ;
 ```js
+document.querySelector("h1").style.fontSize="2 rem" ;
+```
+
 ##### css ✔dash-line case  font-size ▶ fontSize   js ✔camel case  convetion    
 ## see all property css to js  [w3school](https://www.w3schools.com/jsref/dom_obj_style.asp)
 ----

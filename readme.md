@@ -42,7 +42,7 @@ Math.floor()
 var list=[];
 for(var i=0 */[start]*/;i<100 */[end]*/;i++ */[change]*/){
 list.push(i);
-list.legth /* exapect 100 */
+list.legth /* expect 100 */
 }
 ```
 #### `===`  equal  , `!==`  not equal  , `>` greater than , `<`  lesser than , `>=` greater than and equal ,`<=` lesser and equal 

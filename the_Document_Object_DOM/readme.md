@@ -46,10 +46,10 @@ when you load a web page and it what does that, it turns each of these element a
 and eveything taht is contained inside your `html document` is contained in a n `object` **called** `document` 
 
 -----
-documet▶HTML
-HTML▶head
-HTML▶body
-✔ documet▶HTML▶head
++ documet▶HTML
++ HTML▶head
++ HTML▶body
++  documet▶HTML▶head
 
 -----
 # [HTML Tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg/related) plugin  chrome

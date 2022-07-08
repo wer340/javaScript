@@ -44,7 +44,7 @@ drive: function(){}
 } 
 method in object
 
-10--
+11--
 event mdn
 https://developer.mozilla.org/en-US/docs/Web/events
 #### important
@@ -56,4 +56,23 @@ get trigger? this also the another option the passing prameter and we
 allows to do its let happen the event that trigger that event listenier
 addEventListener (data , data)  ~ (which tag is clicked ,which key press) way of action and reaction
  
+12--
+in previous lesson saw that javsScript allow use high order function[input paramete is function]
+event~ evt~ e 
+undrestading callpack~reply
+addEventListener is a higher order function as it take the [redpondToKey function] as a input 
+what about the other side ? what about the function that gets passed 
+in as an input 
+well this is actually called a callback function because it allows us 
+to wait for something to finish happning
+for  example waiting for a click event  and then the callback function get called back excuted 
+ so previously when our button detects a click it calls the callback function
+and in this case when the document or the entire web page detects a key press
+then the document will call this function [respondToKey] function
+ now when that happen we can get it to send us some inforamation
+that it will only know once the event happen namely say wich button
+was clicked which keyvoad was pressed
+slightly crazy part is that this callback function is not called by us 
+but its called by the object  that experienced the click
+
 

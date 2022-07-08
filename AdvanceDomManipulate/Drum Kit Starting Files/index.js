@@ -1,13 +1,28 @@
 
 for (let i=0 ;i<document.querySelectorAll(".drum").length ; i++){
-var drumButtons=document.querySelectorAll(".drum")[i].addEventListener("click",function(event){
- var sond=new Audio('sounds/tom-1.mp3');
-sond.play()
-console.log(this)
-var ButtonText=this.textContent;
-console.log(event.key)
-switch (event.key){
+var drumButtons=document.querySelectorAll(".drum")[i].addEventListener("click",function(){
+   
+    var ButtonText=this.textContent;
+    console.log("tag = "+ButtonText)
+    siwtcher(ButtonText);
+})
+var drumButtons2=document.querySelectorAll(".drum")[i].addEventListener("keydown",function(event){
+    siwtcher(event.key);
+})
+}
 
+
+
+  
+
+
+
+
+
+
+
+function siwtcher(key){
+    switch (key ){
     case "w": 
         var sond=new Audio('sounds/tom-1.mp3');
         sond.play()
@@ -40,13 +55,12 @@ switch (event.key){
     
 
 }
-
-})
 }
+
 
 document.addEventListener("keydown",function(event){
  
   
-//  console.log(event.key)
+ console.log(event.key)
    
 })

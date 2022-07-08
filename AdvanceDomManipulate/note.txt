@@ -12,6 +12,16 @@ now this is a little bit different from the function that we have
 seen so far because instead of just passing in string or number or other
 simple data type  we are actually passing in a function as an input
 
+5---
+setTimeout
+important thing  
+for keydown
+document.addEventListener()
+wrong way document.querySelectorAll(".drum")[i].addEventListener
+why ?  because in click postion and place click important
+in keyboard  name keyboard   and not scop dom 
+
+
 
 ### [type keyword]debugger;  then hold down shift+enter then type function
 High order function , are function that can take other function as input

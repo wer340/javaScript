@@ -5,20 +5,14 @@ var drumButtons=document.querySelectorAll(".drum")[i].addEventListener("click",f
     var ButtonText=this.textContent;
     console.log("tag = "+ButtonText)
     siwtcher(ButtonText);
+    addAnimation(ButtonText);
 })
-var drumButtons2=document.querySelectorAll(".drum")[i].addEventListener("keydown",function(event){
-    siwtcher(event.key);
+var drumButtons2=document.addEventListener("keydown",function(event){
+    var keyword=event.key;
+    siwtcher(keyword);
+    addAnimation(keyword);
 })
 }
-
-
-
-  
-
-
-
-
-
 
 
 function siwtcher(key){
@@ -57,6 +51,13 @@ function siwtcher(key){
 }
 }
 
+function addAnimation(currentKey){
+var tag=document.querySelector("."+currentKey);
+tag.classList.add("pressed");
+setTimeout(function(){
+    tag.classList.remove("pressed");
+},100)
+}
 
 document.addEventListener("keydown",function(event){
  

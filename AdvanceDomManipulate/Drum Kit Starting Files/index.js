@@ -1,13 +1,14 @@
 
 for (let i=0 ;i<document.querySelectorAll(".drum").length ; i++){
-var drumButtons=document.querySelectorAll(".drum")[i].addEventListener("click",function(){
+var drumButtons=document.querySelectorAll(".drum")[i].addEventListener("click",function(event){
  var sond=new Audio('sounds/tom-1.mp3');
 sond.play()
-console.log(this.style.color="purple")
+console.log(this)
 var ButtonText=this.textContent;
-switch (ButtonText){
+console.log(event.key)
+switch (event.key){
 
-    case "w":
+    case "w": 
         var sond=new Audio('sounds/tom-1.mp3');
         sond.play()
     break;
@@ -42,4 +43,10 @@ switch (ButtonText){
 
 })
 }
-console.log(document.querySelector(".drum") )
+
+document.addEventListener("keydown",function(event){
+ 
+  
+//  console.log(event.key)
+   
+})

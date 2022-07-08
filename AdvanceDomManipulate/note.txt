@@ -44,4 +44,16 @@ drive: function(){}
 } 
 method in object
 
+10--
+event mdn
+https://developer.mozilla.org/en-US/docs/Web/events
+#### important
+remember how said that when we addeventlistiener to an Element  then
+once thing event happen the Element will trigger the function
+thats is second prameter so in this case when keypress detected trigger
+the function thats tell the browser to show  know when that function 
+get trigger? this also the another option the passing prameter and we
+allows to do its let happen the event that trigger that event listenier
+addEventListener (data , data)  ~ (which tag is clicked ,which key press) way of action and reaction
+ 
 

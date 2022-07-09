@@ -5,6 +5,17 @@ why does it require so many line of code
 and who s going to take care of all our joint pain from all this typing?
 this is john resig   had created jquery lib
 jQuery("h1")~ $("h1")=document.querySelector("h1")
+first lib  add
+https://developers.google.com/speed/libraries#jquery cdn
+then index.js  add for inject
+insurance way  
+ready method  
+first check jquery lib add then  js customize run
+https://www.minifier.org/
+minify file reorder  minfy means remove space and comment for reduce size file
+browser not care to space 
+$("")  select 1  also select many  querySelectorAll and querySelector
+addClass() give also many class    hasClass > return false true
 
 
  

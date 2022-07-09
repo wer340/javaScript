@@ -51,13 +51,35 @@ list.legth /* expect 100 */
 # manipulate with js
 ```js
 document.querySelector("#firstHeading").style.fontSize="3rem";
-document.querySelector("#firstHeading").classList="infobox"; /* css into css js into js html to html  principle✔*/
-document.querySelector("#firstHeading").textContent="General Elictric" ; /* only text innerHtml return taag like <em>text</em> */
+
+document.querySelector("#firstHeading").classList="infobox"; 
+/* 🔼 css into css js into js html to html  principle✔🔼  */
+
+document.querySelector("#firstHeading").textContent="General Elictric" ; 
+/* 🔼only text innerHtml return taag like <em>text</em> 🔼 */
+
 document.querySelector(".infobox-image a").getAttribute("href"); 
-document.querySelector(".infobox-image a").setAttribute("href",'https://m.mediaY388_.jpg'); /* not run */
+document.querySelector(".infobox-image a")/*  */
+
+.setAttribute("href",'https://m.mediaY388_.jpg'); /* not run */
 document.querySelector(".infobox-image a").removeAttribute("href");
 ```
+#  addEventListener
+######  a simulation of  mechanism  of  addEventListener function 
+```js
+function anotherEventListener(typeOfEvent,callback){
+//detect Event code ...
 
+var eventThatHappen={
+    eventType:"keypress",
+    key:"p",
+    durationOfKeypress:2
+}
+if (eventThatHappen.eventType==="keypress"){
+    callback(eventThatHappen);
+}}
+
+```
 
 
 

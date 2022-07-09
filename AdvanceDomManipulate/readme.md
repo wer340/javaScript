@@ -11,6 +11,20 @@ add(12,34);
 
 #  addEventListener
 
+```js
+function anotherEventListener(typeOfEvent,callback){
+//detect Event code ...
+
+var eventThatHappen={
+    eventType:"keypress",
+    key:"p",
+    durationOfKeypress:2
+}
+if (eventThatHappen.eventType==="keypress"){
+    callback(eventThatHappen);
+}}
+
+```
 
 High order function , are function that can take other function `as input`
 this feature available in a number of modern languages like `javscript` pascal
@@ -82,7 +96,7 @@ var drumButtons2=document.addEventListener("keydown",function(event){
     var keyword=event.key;
     console.log(event.key) 
       });
-
+```
 -----
 
  ![high function](https://raw.githubusercontent.com/wer340/javaScript/main/AdvanceDomManipulate/listener.png)
@@ -90,9 +104,12 @@ var drumButtons2=document.addEventListener("keydown",function(event){
  that javsScript allow use `high order` function`input paramete is function`
 ## undrestading `callpack`~reply
 addEventListener is a `higher order function` as it take the [redpondToKey function] as a input 
+
+---
 what about the other side ? what about the function that` gets passed ` in as an input well this is actually **called a callback** function
  because it allows us  to wait **for something to finish happning**
 
+---
  
 for  example waiting for a click event  and then the callback function get called back excuted 
  so previously when our button detects a click it calls the callback function

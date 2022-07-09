@@ -11,13 +11,14 @@ add(12,34);
 
 #  addEventListener
 
-![high function](https://raw.githubusercontent.com/wer340/javaScript/main/AdvanceDomManipulate/listener.png)
+
 High order function , are function that can take other function `as input`
 this feature available in a number of modern languages like `javscript` pascal
 swift java ruby python haskell c++ php c# Go .. but its not universal
 its not available in all programming languages
 
 -----------
+ ![callback](https://raw.githubusercontent.com/wer340/javaScript/main/AdvanceDomManipulate/listiner.png)
 important  
 which button click  among many button  have addEventListner
 we can figure out  idintiy of the button the trigger event by something 
@@ -33,18 +34,21 @@ dominating the web one object at a time
 object similar table  same dicitonary  in python
 
 has property of object with dot
-this way fraustrating if want many object 
-function nmae(a,b,c){
-this.age=a
-this.name=b
-this.movie=c
-}
-initila object
-var scarlett =new name(45,scarlett,avenger)
-
-drive: function(){}
-} 
+this way fraustrating if want many object  
 method in object
+```js
+var actress={
+    name:"Scarlett johansson", // property
+    age:44, // property
+    move:"Avanger",  // property
+    oscar:true,  // property
+    moviePlay:function(){  // method
+    //  statement
+    }    
+}
+```
+
+
 
 event mdn
 https://developer.mozilla.org/en-US/docs/Web/events
@@ -58,7 +62,8 @@ allows to do its let happen the event that trigger that event listenier
 addEventListener (data , data)  ~ (which tag is clicked ,which key press) way of action and reaction
 
  that javsScript allow use `high order` function`input paramete is function`
- ![callback](https://raw.githubusercontent.com/wer340/javaScript/main/AdvanceDomManipulate/listiner.png)
+
+ ![high function](https://raw.githubusercontent.com/wer340/javaScript/main/AdvanceDomManipulate/listener.png)
 #### undrestading callpack~reply
 addEventListener is a `higher order function` as it take the [redpondToKey function] as a input 
 what about the other side ? what about the function that` gets passed `

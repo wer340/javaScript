@@ -1,0 +1,10 @@
+1--
+and this is pure javascript and its actually a little bit crazy if you
+really think about it in order to do something relatively simple
+why does it require so many line of code 
+and who s going to take care of all our joint pain from all this typing?
+this is john resig   had created jquery lib
+jQuery("h1")~ $("h1")=document.querySelector("h1")
+
+
+ 

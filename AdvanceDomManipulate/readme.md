@@ -10,7 +10,7 @@ add(12,34);
 ```
 
 #  addEventListener
-######  a simulation mechanism  of  addEventListener function 
+######  a simulation of  mechanism  of  addEventListener function 
 ```js
 function anotherEventListener(typeOfEvent,callback){
 //detect Event code ...

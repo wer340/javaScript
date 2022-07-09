@@ -36,7 +36,7 @@ its not available in all programming languages
 important  
 which button click  among many button  have addEventListner
 we can figure out  idintiy of the button the trigger event by something 
-just called ## this#####and this it basicly idntity of the button that
+just called `this`and this it basicly idntity of the button that
 trigger eventListner 
 
 --
@@ -62,7 +62,7 @@ var result =actress.play();//call method
 ```
 this way frustrating if want many object  whats do you do?☹
 ### constructor 🌿  
-+ new key wword for make a new object 
++ `new` keyword for make a new object ✔
 ```js 
 function acter (name ,age ,movie,oscar){
     this.name=name;

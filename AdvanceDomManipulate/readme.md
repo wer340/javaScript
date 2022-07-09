@@ -10,7 +10,7 @@ add(12,34);
 ```
 
 #  addEventListener
-
+######  a simulation mechanism  of  addEventListener function 
 ```js
 function anotherEventListener(typeOfEvent,callback){
 //detect Event code ...
@@ -61,7 +61,7 @@ var name=actress.name;  //call property
 var result =actress.play();//call method 
 ```
 this way frustrating if want many object  whats do you do?☹
-#### constructor 🌿  
+### constructor 🌿  
 + new key wword for make a new object 
 ```js 
 function acter (name ,age ,movie,oscar){

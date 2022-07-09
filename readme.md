@@ -77,7 +77,7 @@ var eventThatHappen={
     durationOfKeypress:2
 }
 if (eventThatHappen.eventType==="keypress"){
-    callback(eventThatHappen);
+    callback(eventThatHappen); /* eventThatHappen ~ e ~ evt ~ event */
 }}
 
 ```

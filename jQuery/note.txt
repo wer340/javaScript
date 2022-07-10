@@ -16,6 +16,9 @@ minify file reorder  minfy means remove space and comment for reduce size file
 browser not care to space 
 $("")  select 1  also select many  querySelectorAll and querySelector
 addClass() give also many class    hasClass > return false true
+6---
+now by this point you would have noticed that most of the thing
+that you do with jQuery are implemented using method 
 
 
  

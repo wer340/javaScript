@@ -9,3 +9,10 @@ $(".photo").html('<img src="asset/3.jpg" alt="">'); //add photo
 $($("button")[1]).html("<em>scarlett Johansson</em>") // select single element of them 
 console.log($("img").attr("src")); //property show  ~  getAttribute 
 $("img").attr("height","200px")  // set attribute this way wrong  because seprate behavior css js html
+$($("button")[3]).click(function(){  // addEventListener   ~
+    $(".photo").toggle(
+        (e)=>{$(".photo").append('<img src="asset/3.jpg" height="200px" alt="">');
+        console.log(e)
+    }
+    ); 
+});

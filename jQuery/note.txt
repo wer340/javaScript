@@ -24,4 +24,20 @@ after()  otline selected tag
 prepend() inside selected tag before
 append()inside selected tag  after  
 remove()  delete element
- 
+10---
+hide()
+toggle();
+fadeOut()
+fadeIn()
+fadeToggle()
+SlideUp()
+slideToggle()
+
+ .animate(
+{
+feature css
+
+}
+)
+SlideUp().slideDown.animate({})   combain
+https://www.w3schools.com/jquery/jquery_ref_effects.asp

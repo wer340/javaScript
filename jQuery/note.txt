@@ -19,6 +19,9 @@ addClass() give also many class    hasClass > return false true
 6---
 now by this point you would have noticed that most of the thing
 that you do with jQuery are implemented using method 
-
-
+before()otline selected tag 
+after()  otline selected tag 
+prepend() inside selected tag before
+append()inside selected tag  after  
+remove()  delete element
  

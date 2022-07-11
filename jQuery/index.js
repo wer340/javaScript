@@ -16,3 +16,15 @@ $($("button")[3]).click(function(){  // addEventListener   ~
     }
     ); 
 });
+var char=""
+$("input").keypress(function(e){
+   char +=(e.key);
+   
+    console.log(e.key)
+  
+   
+    $(".banner").html(
+        
+        '<h1>'+char+'</h1>'
+    );
+})

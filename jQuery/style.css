@@ -4,3 +4,9 @@
 .color{
     color: aqua;
 }
+input{
+  margin-bottom: 30px;
+}
+.banner{
+  position:absolute;
+}

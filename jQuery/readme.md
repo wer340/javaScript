@@ -74,7 +74,7 @@ document.querySelector("h1").style.color="red"
   
   ```html
 <outside[first]><div class="wrap">inside[first] etc ......... inside[last]</div><outside[last]>
- 
+ <!--  assume $(".wrap").method("tag")             -->
  ```
 method|inside or outside tag| first or last of tag|
 ------|----------------------|--------------------|

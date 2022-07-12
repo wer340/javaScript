@@ -16,15 +16,17 @@ $("#"+randomChosenColour).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 
 $(".btn").click(function(){
     // console.log(this.id)
-    if(this.id==gamePattern[level]){
+    if(this.id==gamePattern[level] && level!=-1){
         var audio = new Audio('sounds/'+this.id+'.mp3');
         audio.play();
         nextSequence();
         level++;
-        $("#level-title").text("Level "+level)
+        $("#level-title").text("Level "+level);
     }else{
         var audio = new Audio('sounds/wrong.mp3');
         audio.play();
+        level=-1;
+        $("#level-title").append("    You Game Over!");
     }
     
 
@@ -46,6 +48,7 @@ $(".btn").click(function(){
     });
     $(document).keypress(function(e){
         if(e.key=="a"){
+            level=0;
             nextSequence();
             $("#level-title").text("Level "+level)
         }

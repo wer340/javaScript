@@ -8,3 +8,5 @@ jquery added    $("h1")  >>Object { 0: h1#level-title ..
 
 14.
 $(this).addClass("pressed");
+$($("button")[2])
+removeProp    property not main  like bg color  

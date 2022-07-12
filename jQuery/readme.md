@@ -70,4 +70,12 @@ document.querySelector("h1").style.color="red"
    
    # [animate jquery](https://www.w3schools.com/jquery/jquery_ref_effects.asp)
    
+  ------
+method|inside or outside tag| first or last of tag|
+------|----------------------|--------------------|
+before()|outline |first|
+after() | otline| last|
+prepend()| inside | first|
+append()|inside | last|
+
    

@@ -25,8 +25,11 @@ $(".btn").click(function(){
     }else{
         var audio = new Audio('sounds/wrong.mp3');
         audio.play();
+        if(level!=-1){
+            $("#level-title").append("    You Game Over!");
+        }
         level=-1;
-        $("#level-title").append("    You Game Over!");
+        
     }
     
 

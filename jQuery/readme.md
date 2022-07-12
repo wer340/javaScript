@@ -71,10 +71,15 @@ document.querySelector("h1").style.color="red"
    # [animate jquery](https://www.w3schools.com/jquery/jquery_ref_effects.asp)
    
   ------
+  
+  ```html
+<outside[first]><div class="wrap">inside[first] etc ......... inside[last]</div><outside[last]>
+ 
+ ```
 method|inside or outside tag| first or last of tag|
 ------|----------------------|--------------------|
-before()|outline |first|
-after() | otline| last|
+before()|outside |first|
+after() | outside| last|
 prepend()| inside | first|
 append()|inside | last|
 

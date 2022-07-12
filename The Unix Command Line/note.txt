@@ -1,0 +1,44 @@
+1---
+hyper
+chunk code >coco-napky hyper configuration .js
+go to hyper   > edit > preference >delete all this chunk code paste
+
+echo $SHELL  expected>  /bin/bash
+3--
+pistachio  oprating sys   actuall nut is the karnel
+And in computing the kernel refers to the actual program that interface with
+the hardware  so its the core of your operating system
+shell of your pistachio or the shell in computing refers to user interface 
+for you as a humen to be able to intract with kernel and turn with the 
+hardware of your computer
+
+https://www.learnenough.com/command-line-tutorial
+
+two varient shell   graphical user interface[explorer ,..] and command line interface
+bourne again shell [ Mr.bourne ]
+is cli or command line interpreter for unix system
+complely diffrent  family from the windows side of thing which Dos and windoe
+
+ls -a  
+https://hackertyper.com/  code fake 
+ ls list 
+ipa international phonatic alphabet
+cd change directory
+cd ~ name pc
+cd Documents/Learn/Languages
+up command for previous command
+cd .. back parent directory
+if deep folder   go to other deep>> cd /users/namepc/.../
+control+ a  first command line  control+ e    last command line
+control+u  clear command
+start note.txt deafult app
+start atom note.txt
+rm  remove
+rm *  remove all file
+pwd  print work directory
+rf -r   folder   remove folder -rf  force  doesnt confomation
+https://serverfault.com/questions/587102/monday-morning-mistake-sudo-rm-rf-no-preserve-root
+this site similar stackoverflow but for network and server
+sudo stand > super user do
+
+with great power comes great responsibility

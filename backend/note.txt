@@ -1,0 +1,22 @@
+full stack dev
+front end + back end
+
+sever > apllication >database
+site evenbrite
+database imagine giant excel
+
+secret recipe thats been passed down over generations from your great grandma 
+any body would be able to see what it is that your doning
+and have to be repleacted
+and this is the same for the business logic of your web site
+if you had something that you wanted to keep secret such as your API keys
+or how you implement your particular application you dont wanna that to be visilbe
+every time somebody loads up a web site
+second reason  > time consuming 
+end there a lot of technologies that are commonly used for this purpose and 
+these include php ruby java node.js amongst many many other
+framwork 
+cake php ruby railsor spring express and these thing that will speed up
+development using the particular back end technology you chose 
+most pupular  node because it run in javascript  
+ ruby rail and other framwork remove repeat save time

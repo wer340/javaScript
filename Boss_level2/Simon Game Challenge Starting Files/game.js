@@ -1,5 +1,6 @@
 var gamePattern=[];
 var userClickedPattern=[];
+level=0
 var buttonColours=["red", "blue", "green", "yellow"] ;
 function nextSequence(){
     var randomNumber=Math.random()*4;
@@ -15,9 +16,12 @@ $("#"+randomChosenColour).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 
 $(".btn").click(function(){
     // console.log(this.id)
-    if(this.id==gamePattern[0]){
+    if(this.id==gamePattern[level]){
         var audio = new Audio('sounds/'+this.id+'.mp3');
         audio.play();
+        nextSequence();
+        level++;
+        $("#level-title").text("Level "+level)
     }else{
         var audio = new Audio('sounds/wrong.mp3');
         audio.play();
@@ -43,7 +47,7 @@ $(".btn").click(function(){
     $(document).keypress(function(e){
         if(e.key=="a"){
             nextSequence();
-            $("#level-title").text("Level 0")
+            $("#level-title").text("Level "+level)
         }
         
     });

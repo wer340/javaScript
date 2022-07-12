@@ -1,0 +1,6 @@
+1---
+simon Game 
+https://londonappbrewery.github.io/Simon-Game/
+
+jquery not add  $("h1")  >><h1 id="level-title">
+jquery added    $("h1")  >>Object { 0: h1#level-title ..

@@ -23,6 +23,7 @@ $(".btn").click(function(){
         level++;
         $("#level-title").text("Level "+level);
     }else{
+        bgcolor();
         var audio = new Audio('sounds/wrong.mp3');
         audio.play();
         if(level!=-1){
@@ -57,3 +58,12 @@ $(".btn").click(function(){
         }
         
     });
+
+    function bgcolor(){
+        $("body").css("background-color","orange");
+        setTimeout(function(){
+            $("body").css("background-color","#011F3F");
+        },200)
+
+    }
+    

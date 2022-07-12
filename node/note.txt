@@ -1,0 +1,24 @@
+1--
+node dijango      Job Trends from indeed.com
+so we have talked about why we want to use node 
+but what exactly does it do anyway?
+well currently in our web sites we have written javascript code and we have
+been able to execute it inside our browser nut realy important
+but up untill now that javascript code has been locked behind
+bars and kept inside the browser only been able to interact with browser 
+request information from the browser add event listener to components in
+the browser but we have not able to write javascript code for our website
+thats able to go beyond the boundaries of the browser
+basiclly you nees to be able to write code can interact directly with the 
+computer independent of the browser and thats exactly what node.js allows us to
+do it allows us to take javascript out of browser and it liberated it
+allowing it to interact directly with the hardware of a computer
+so we can now use js inside our web site in order to give it functionality and 
+behavior 
+for example implementing animation or dropdown menu
+but node allow us to use js to interact directly with the hardware of 
+the computer . so we can use it for example to create a desktop application
+and in fact atom the code editor that we have been using all of this time 
+is based on node js 
+so now with node js you can write js code not just in browser to affect behavior
+of your website but also write full application that work on your computer

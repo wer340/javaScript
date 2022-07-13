@@ -5,7 +5,7 @@ const express=require("express");
 const app=express();
 
 app.get("/",function(req,res){
-res.send("hi")
+res.send("index.html")//relative path   no response this situation
 })
 
 

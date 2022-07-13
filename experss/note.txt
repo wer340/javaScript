@@ -23,5 +23,27 @@ app.get
 and this is a method thats provided by express that allow us to specify
 what should happen when a browser gets in touch with our server a get request
 first parameter it takes is  the location of the get request
- 
-   
+parameter  callback  get > response request
+ 5---
+route   root  simialar phonaticamrican
+ nodeman package
+contiuosly     cterl+c and node server.js    use nodeman package
+https://nodemon.io/    npm install -g nodemon
+
+Automatic restarting of application
+6---
+calculator
+
+now in the process of building this we are going to get to create our very 
+first web appliction and its not just a web site anymore up till now 
+we have only been making essentially static website right where our 
+browser will make a to request to the server and the server sends back
+css html js  file and if there is any js code that needs to be run 
+it gets run on the client side basically our user browser and that js gets sents 
+to the browser and run when the user load up website
+in this lesson we are going to be making our code run server side
+so when our web site makes a request to our server  its going to excute the code
+and only deliver the outcome back to the user doesnt get to see any of code
+and logic of our calculator
+user doesnt get to see any of code and logic of our calculator
+it s all done on a server

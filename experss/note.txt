@@ -77,6 +77,11 @@ now  if you interested in a redacted but slightly rude version of how http
 return codes work then its  basically if its in the s it mean hold on 
 something going to happen the 200 mean here you go this is usually a
 successful request 300 mean go away there s some security involved 400s
-mean scewed up 
-
+mean you scewed up 500 s mean i screwed up
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+package >  body-parser
+parser json   text   urlencoded()[grab information form html]
+option ({extended:true}) allows post  to nested object
+bodyparser it allow you to go into any of your routes
+and you can tap into something called request.body 
 

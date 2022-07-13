@@ -10,6 +10,9 @@ app.get("/",function(req,res){
 res.sendFile(__dirname+"/index.html")//relative path   no response this situation
 })
 
+app.post("/",function(req,res){
+    res.send("<h1>Thanks</h1>") //message back  404 >200  sucessfull
+})
 
 
 

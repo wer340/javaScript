@@ -2,8 +2,8 @@ var name=['Lana Turner', 'Janet Leigh ', 'Keira Knightley', 'Jane Seymour', 'Nat
 
 
 
-for (item of name){
-    document.querySelector(".wrapper").innerHTML+=`
-    <div class="item"></div>
-    `;
-}
+// for (item of name){
+//     document.querySelector(".wrapper").innerHTML+=`
+//     <div class="item"></div>
+//     `;
+// }

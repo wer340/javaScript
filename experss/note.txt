@@ -65,3 +65,18 @@ a constant thats called __dir or directory name
 if console.log(__dirname) full path  give fille file path of the current folder
 current file loacation
 /users/namepc/...
+
+10---
+inspect > network  > All tab selected 
+form method post   type submit  
+action not exist  send for post   wrong way action="index.html"> route server> action="/"  for root
+
+alot of compony and website pride themselves on how thwy design their 
+404 site and that just goes to show how often this happen
+now  if you interested in a redacted but slightly rude version of how http
+return codes work then its  basically if its in the s it mean hold on 
+something going to happen the 200 mean here you go this is usually a
+successful request 300 mean go away there s some security involved 400s
+mean scewed up 
+
+

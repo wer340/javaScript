@@ -22,3 +22,33 @@ and in fact atom the code editor that we have been using all of this time
 is based on node js 
 so now with node js you can write js code not just in browser to affect behavior
 of your website but also write full application that work on your computer
+
+-----
+3--
+root  contain  all folder giant full cabinebt
+index.js   we remind that open with html 
+but  open with node.js    > node index.js
+node type terminal then enter
+once you see that angle bracket[>] then you know you are  inside the REPL
+so here we can write code directly
+con tab press  all method appear with con
+for exit
+.exit 
+or 
+contrl+c  twice
+REPL stands for Read-Evaluate-Print-Loop
+
+6---
+https://nodejs.org/docs/latest/api/
+var varible
+const constent i cant change value not going to change 
+fs api  > const fs=  filesystem
+//jshint esversion:6  warrning eslinter
+7---
+npm
+node package manger
+npm init
+package.json
+npmjs.com
+650000package
+node_module  many folder    dependency 

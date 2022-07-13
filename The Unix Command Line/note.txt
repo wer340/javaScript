@@ -42,3 +42,5 @@ this site similar stackoverflow but for network and server
 sudo stand > super user do
 
 with great power comes great responsibility
+
+cd De  press tab complete

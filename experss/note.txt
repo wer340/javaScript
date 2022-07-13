@@ -47,3 +47,4 @@ and only deliver the outcome back to the user doesnt get to see any of code
 and logic of our calculator
 user doesnt get to see any of code and logic of our calculator
 it s all done on a server
+get("/"(req,res)=>{res.sendFile("index.html")}

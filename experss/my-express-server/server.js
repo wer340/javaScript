@@ -6,10 +6,18 @@ app.get("/",(request,response)=>{ //response=res  request=req
    <h1>hello Scarlett gone with wind</h1>
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Vivien_Leigh_Scarlet.jpg/220px-Vivien_Leigh_Scarlet.jpg"  >
    
-   <img src=".\vivien.jpg" >
+   "<img src=".\vivien.jpg" > " this method for sned html not file
    
-   `)
-})
+   `);
+   response.sendFile(__dirname+"/vivien.jpg")
+});
+app.get("/women",function(req,res){
+    res.sendFile(__dirname+"/vivien.jpg")
+});
+app.get("/photo",function(req,res){
+    res.sendFile(__dirname+"/photo.html")
+});
+
 app.listen(port=3000,()=>{
     console.log("server started 3000")
 });

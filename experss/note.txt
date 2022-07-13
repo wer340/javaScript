@@ -1,4 +1,6 @@
 1---
+https://stackoverflow.com/questions/54601233/vscode-emmet-html-boilerplate
+boilateplate  > edit >expand abbrivition or tab
 low level technology
 the scop express very broad  DIY [do it yourself]
 your save your time  10 time the amount of code that you have to write

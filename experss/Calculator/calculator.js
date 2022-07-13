@@ -1,17 +1,19 @@
 const express=require("express");
-const path=require("path")
+const path=require("path");
+const bodyParser=require("body-parser");
 
 
 const app=express();
-
+app.use(bodyParser.urlencoded({extended:true}));
 app.get("/",function(req,res){
     console.log(__dirname)
-    // var pathe=path.join()
+    // var path=path.join()
 res.sendFile(__dirname+"/index.html")//relative path   no response this situation
 })
 
 app.post("/",function(req,res){
-    res.send("<h1>Thanks</h1>") //message back  404 >200  sucessfull
+    console.log(req.body.num1);
+    res.send("<h1>Thanks</h1>") //message back  404 >200  successfully
 })
 
 

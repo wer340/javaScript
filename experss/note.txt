@@ -84,4 +84,5 @@ parser json   text   urlencoded()[grab information form html]
 option ({extended:true}) allows post  to nested object
 bodyparser it allow you to go into any of your routes
 and you can tap into something called request.body 
-
+this is the parsed version of the http request
+payload data in inspect > network 

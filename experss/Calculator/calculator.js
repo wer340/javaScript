@@ -1,11 +1,13 @@
 const express=require("express");
-
+const path=require("path")
 
 
 const app=express();
 
 app.get("/",function(req,res){
-res.send("index.html")//relative path   no response this situation
+    console.log(__dirname)
+    // var pathe=path.join()
+res.sendFile(__dirname+"/index.html")//relative path   no response this situation
 })
 
 

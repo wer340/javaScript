@@ -1,0 +1,27 @@
+1---
+low level technology
+the scop express very broad  DIY [do it yourself]
+your save your time  10 time the amount of code that you have to write
+programmer hate reptition
+https://2021.stateofjs.com/en-US/libraries/back-end-frameworks/
+big deal webdeveloper  communitty
+2---
+electron>atom .
+https://expressjs.com/
+express()  make object then listen method 
+now a port is basically just a channel that we have tuned our server to
+so for example sometimes i listen to radio and i tun my radio
+ to listen to 104.9FM
+and our server is just tuned into the channel 3000
+now not much is happening here so let stop our server and we do that by going
+into the command line  ctrl+c exit
+so if we wanted to be  able to see when our port is set up and when our server
+is runing we can add a callback function to this method 
+//localhost:3000  can not get
+so this [/] just represents localhost:3000/,which is the route or the home page
+app.get
+and this is a method thats provided by express that allow us to specify
+what should happen when a browser gets in touch with our server a get request
+first parameter it takes is  the location of the get request
+ 
+   

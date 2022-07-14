@@ -6,6 +6,7 @@
 ```js
 const bodyParser=require("body-parser"); //for parse request http 
 const express=require("express");
+app.use(express.static('public')); // read  static adress js css html 
 const app=express(); //make instance
 app.use(bodyParser.urlencoded({extended:true}));//extended convert object data payload network    url json text
 app.get("/",function(req,res){

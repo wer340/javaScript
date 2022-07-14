@@ -10,9 +10,9 @@ european standardize `ecma` script ES6 ,.. ecma `e`uropean `c`omputer `m`anufact
 |c|compile|
 |c++|compile|
 |swift|compile|
-|javaScript|iterpater|
-|python|iterpater|
-|Ruby|iterpater|
+|javaScript|interpater|
+|python|interpater|
+|Ruby|interpater|
 -----
 
 ##### js suporrted all major browser

@@ -17,17 +17,15 @@ complely diffrent  family from the windows side of thing which Dos and windoe
 
 ------------------------------
 shortcut command  unix 
-|shortcut |description|
-|---------|-----------|
-|control+a|first line|
-|control+e|last line|
-|contrl+u|clear line|
-|control+l|clear screen|
-|cat file|read file|
-|cat >> file|append data ctrl+d exit|
-|cat > file|write data ctrl+d exit|
-|few char  then tab|expand abbrevition|
-|control +c(twicw) | quit and out of running process|
+|shortcut |description|command|description|
+|---------|-----------|--------|----------|
+|control+a|first line|cat >> file|append data ctrl+d exit|
+|control+e|last line|cat > file|write data ctrl+d exit|
+|contrl+u|clear line|cd|change directory|
+|control+l|clear screen|cd ..|go to parent dir|
+|cat file|read file|rm -r|remove folder -f force|
+|few char  then tab|expand abbrevition|pwd|print work directory adress|
+|control +c(twice) | quit and out of running process|ls -a| list directory and file +hidden|
 
 
 ----

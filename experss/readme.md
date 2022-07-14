@@ -28,7 +28,7 @@ app.listen(3000,function(){ //make a port similar radio station so that can do r
 
 -----
 so this `/` just represents `localhost:3000/`,which is the root or the home page
-app.get
+`app.get`
 and this is a method thats provided by express that allow us to specify
 what should happen when a browser gets in touch with our server a get request
 first parameter it takes is  the location of the get request
@@ -48,6 +48,11 @@ user doesnt get to see any of code and logic of our calculator
 it s all done on a server   [senFile()](https://expressjs.com/en/4x/api.html#res.sendFile)
 `get("/"(req,res)=>{res.sendFile("index.html")}`
 location of file
+
+------
+![cloud](https://raw.githubusercontent.com/wer340/javaScript/main/experss/images/clouds.png)
+----
+
 now what we have been working with so far what are called relative file path
 so we can simply  say `index.html` and it will go and search within the current
 file s location so `calculator.js` and look for something called `index.html`
@@ -63,7 +68,7 @@ current file loacation
 `/users/namepc/...`
 
 --------------------
-#404 Error briefly
+# 404 Error briefly
 alot of company and website pride themselves on how thwy design their 
 404 site and that just goes to show how often this happen
 now  if you interested in a redacted but slightly rude version of how http

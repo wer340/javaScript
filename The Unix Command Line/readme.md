@@ -10,8 +10,8 @@ hardware of your computer
 
 ---
 
-two varient shell   graphical user interface`explorer ,..` and command line interface
-bourne again shell ` Mr.bourne` **BASH**
+two varient shell   graphical user interface`explorer ,..` and `command line interface`
+`b`ourne `a`gain `sh`ell ` Mr.bourne` **BASH**
 is cli or command line interpreter for unix system
 complely diffrent  family from the windows side of thing which Dos and windoe
 

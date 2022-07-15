@@ -65,5 +65,27 @@ appid=hash     this parameter for authinticate
 order p1&p2&p3  doesnt matter
 very difficult test api with browser bar  alot of time edit and adjust
 in casuse of  we use postman
-return back data term of json format
+return json format 
 4---
+json
+javascript object notation
+couple diffrent   object js with json    var lam={} and keyword property object have not ""
+https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc
+json viewer awsome
+https://chrome.google.com/webstore/detail/smart-page-ruler/nmibbjghlmdiafjolcphdggihcbcedmg
+smart page ruler  <rahul baruri>
+5---
+make get request external server 
+https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html
+https native module method  for get data external server
+now the thing to remember about this url though is it needs to have the strict
+formating the `https://` and then rest of the url  because even though 
+we could take this url paste it into browser  and our broswer will automatically
+add all the necessary https etc  it doesnt work like that when use our node module
+we have to have this first part there
+now you can either just paste it into your browser and then select it and copy
+it and now when you add this string[endpoint] you will see that its automatically included
+that first part[https://] or you  could simply just have typed this as well
+it doesnt realy matter
+conclusion > in https.get(https//:+url)  first part include while in other case node module not inc;ude
+  

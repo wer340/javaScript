@@ -1,0 +1,69 @@
+1---
+https://openweathermap.org/
+API
+an apllication programming interface (API) is a set of commadnds functions
+protocols and objects that programmer can use to create software or interact
+with an external system
+there certain piece of data that they will allow you to access
+but theres other piece of data thats not realy your business
+some people will consider to be a contract its a contract between the data 
+provider and the developer and essentially it says is these are all the thing
+that developers can access and these are the methods the objects the protocols
+that you would use to access them and we as the web site that hosts the data 
+try to not change any of these methods or functions without notifying you
+jquery is api
+we are going to use their API as a menu of things that we can do to interact
+with their data
+
+2--
+Endpoint
+paths
+parameters
+Authentication
+each of Api show you each of thing do
+
+Endpoint > every api that interacts with a external system like a server 
+will have an endpoint 
+https://kanye.rest/
+this web site hosts a database of kanye west quotes and we can access the 
+data from this web site by using their API and the endpoint of the API
+is this  url right here and whenever you are using a different API they are 
+going to likely have a different endpoint 
+but they will always you what it is in their documention now 
+because this  is such a simple API 
+if take this url and  i paste it into my browser bar then my browser makes a
+get request to the kanye.rest server and they send back a piece of data
+which is a quote and it says "blla bllaa" 
+path & parameter  theres also API paths and parameter that you can use 
+in order to narriw down on a specific of data  you want from an external server
+in order to illustrate parts and servers
+https://sv443.net/jokeapi/v2/
+black list joke not safe for work   nsfw
+https://v2.jokeapi.dev/joke/programming
+now we are inrodusing this consept of paths when  we are trying to access an api
+and notice how rhe nedpoint is the url up to that last forward slash [/]
+and then if we went down the programming[eaxmple] path
+then we would only be getting programming jokes but if change the category to dark
+only be getting jokes from the dark category
+parametr>
+if i wanted to search for a joke that contains a specific word lets say 
+i want a programming  joke that contained the word `debugging` 
+ well then they proably wouldnt have thought of this of time
+they probaly dont have a path to adress this specific query 
+so in order to allow the API to be flexible enough to deal with custom queries
+like this usually API allow you to provide parameter and parameter the end of url 
+after a question mark [?key=query] many query with apersand[&]
+
+3---
+monetizable way of api  is Authentication
+so every time you make a request through the API they have to be
+able to identify you  as developer
+and they have to keep track of how often you are using server to get data
+and then charge you
+https://openweathermap.org/
+appid=hash     this parameter for authinticate
+order p1&p2&p3  doesnt matter
+very difficult test api with browser bar  alot of time edit and adjust
+in casuse of  we use postman
+return back data term of json format
+4---

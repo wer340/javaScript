@@ -102,3 +102,7 @@ and im going to create a callback function thats going to contain the data we ge
 data packed in hexadecimal code like  ikea flat 
 JSON.parse()
 JSON.stringfy(object) minimum space similary string
+7---
+if app.get("/",(req,res)>{})  we twice use res.send    
+crashed because only one time of res.send in each app.get()
+res.write() ,...   res.send() if multiple send 

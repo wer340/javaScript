@@ -12,7 +12,8 @@ app.get("/",(req,res)=>{
        res.on("data",function(data){
         console.log(data);
         const objectJoke=JSON.parse(data);
-        console.log(objectJoke);
+        console.log(objectJoke.joke);
+        console.log(JSON.stringify(objectJoke));//packed data 
     });
 
 

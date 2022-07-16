@@ -99,4 +99,6 @@ res.on("data"callback(data){})
 we can tap into a specific moment say when we recevie some data in the 
 response so lets first call the res on when we recive some data .
 and im going to create a callback function thats going to contain the data we get 
-
+data packed in hexadecimal code like  ikea flat 
+JSON.parse()
+JSON.stringfy(object) minimum space similary string

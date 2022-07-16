@@ -88,4 +88,15 @@ it and now when you add this string[endpoint] you will see that its automaticall
 that first part[https://] or you  could simply just have typed this as well
 it doesnt realy matter
 conclusion > in https.get(https//:+url)  first part include while in other case node module not inc;ude
-  
+ 
+6---
+res.stateCode   200 300 400 500 ?? whats happen 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+https://httpstatusdogs.com/
+https://cryptii.com/ ver good site
+res thats get  from parameter callback https.get  
+res.on("data"callback(data){})
+we can tap into a specific moment say when we recevie some data in the 
+response so lets first call the res on when we recive some data .
+and im going to create a callback function thats going to contain the data we get 
+

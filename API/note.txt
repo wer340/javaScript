@@ -109,3 +109,29 @@ res.write() ,...   res.send() if multiple send
 8--
 body-parser allow  looks through the body of post request and fetch the data
 based on the name of my input which is called
+10--
+mailcheap
+bootstrap
+static adress in html file    image adress  style adress
+in order for our server to serve up static file such as css and images
+then we need to use a special function of express and thats something called 
+static app.use(express.static("public"))  public folder  relative 
+11--
+mailcheap.com/developer
+account extra  api key
+12---
+post form  for  try again   then app.post()>res.redirect("/")
+13--
+https://www.heroku.com  server free
+app.listen(3000||process.env.PORT) dynamic port in heroku  pick for you
+Procfile  p letter is capital   without extension
+web: node app.js    inside Procfile 
+git >commit
+heroku create 
+git push heroku master
+few minutes till file deploy on server
+
+with heroku logs     find your issue
+every change in heroku    after git add .   git commit
+
+

@@ -106,3 +106,6 @@ JSON.stringfy(object) minimum space similary string
 if app.get("/",(req,res)>{})  we twice use res.send    
 crashed because only one time of res.send in each app.get()
 res.write() ,...   res.send() if multiple send 
+8--
+body-parser allow  looks through the body of post request and fetch the data
+based on the name of my input which is called

@@ -6,21 +6,23 @@ const app=express();
 
 app.get("/",(req,res)=>{
     var  url="https://v2.jokeapi.dev/joke/programming"
-    https.get(url,function(res){
-       console.log(res.statusCode);
+    https.get(url,function(response){
+       console.log(response.statusCode);
 
-       res.on("data",function(data){
-        console.log(data);
+       response.on("data",function(data){
         const objectJoke=JSON.parse(data);
-        console.log(objectJoke.joke);
-        console.log(JSON.stringify(objectJoke));//packed data 
+       res.write("<h1> stateCode : "+response.statusCode+"</h1>");
+       res.write("<h1>"+objectJoke.category+"</h1>");
+       res.write("<h4>"+objectJoke.joke+"</h4>");
+       res.write("<h1><b>"+objectJoke.error+"</b></h1>");
+       res.send()
     });
 
 
 
     });
 
-res.send("result")
+
 });
 
 

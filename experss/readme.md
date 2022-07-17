@@ -83,7 +83,8 @@ mean `you scewed up` `500s` mean `i screwed up`
 Automatic restarting of application  replace contiuosly     cterl+c and node server.js   
 
 ## package npm [body-parser] (https://www.npmjs.com/package/body-parser)
-##### body-parser allow  looks through the body of post request and fetch the data based on the name of my input which is called a name
+
+#### body-parser allow  looks through the body of `post` request and fetch the data `based` on the `name of my input` which is called a name
 
 Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
 

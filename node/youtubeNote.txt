@@ -1,0 +1,53 @@
+1--node core
+https://www.youtube.com/watch?v=TlB_eWDSMt4&list=WL&index=1&t=155s&ab_channel=ProgrammingwithMosh
+node is envirement runtime
+not a framework  or  lang
+engine v8  chrome for rander js 
+v8+code c++ =node    
++plus    availbe file system and network   that not availbe in chrome
+
+node  in server   fastest  and  request per second double time increas
+high scalable
+non-blocking async  do many task same time  non blocking for doing next task
+a single thread handle multiple request
+in contrast with non blocking or async architecture we have a blocking or
+sync architecture  node by deafult async architect
+
+rail asp.net  frame work   with sync archect  extra do work for async asp.net 
+more client without the need to throw in more hardware 
+do not use node  for cpu  intensive  video encoding image manipulate
+this model applection  have a lot of calculation that should done by cpu
+node
+does not have window  and document object 
+node work  with files with the opreating sys and network 
+
+2---node module system
+os fs events http
+node we have a couple other global object 
+i browser we have this window object that represent our global scope 
+we can access them via this window object  window.console.log()
+js will prefix this statement with window that console that where object is define
+instead node replace window  we have global object global.console.log()
+var message="SDS" console.log(global.message)//undefined
+the global object they are only scoped to this fire app.js  so they are not 
+availble out side of this file and this is beacuse node modular sys
+3---node modular sys
+avoid defining var or func  in the global scope as overwrite on main func be relaible
+instead in global scope we need modularity
+var and func encapsulated inside of that module
+in core of node we have this consept called module so every file in a node 
+apllication is consedered a module
+you want to use variable or function defined in a module outside module
+you need to explicitly export it and make it public
+
+in node every file is module  console.log(module)
+
+so coclution  every var and func  defined in module scope
+module scope
+ module.exports.name=func;require("") js exention automaticaly node added if dont write
+node pre deafult like app.js as main 
+js hint tool  for happing this wrong
+if one function   module.export=funnc    const name=require()   name()
+npm install -g jshint install
+
+4----module wrapper

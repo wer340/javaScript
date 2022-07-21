@@ -1,3 +1,4 @@
+var scar=; //in first line
 var url="http://mylogger.io"
 function log(message){
     //http request

@@ -51,3 +51,7 @@ if one function   module.export=funnc    const name=require()   name()
 npm install -g jshint install
 
 4----module wrapper
+var and func define in module
+the private and not visible from outside might be wondring how node does this
+first line make syntax erro  line 1  not break line run code  unexpected token
+(function (exports, require, module, __filename, __dirname) 

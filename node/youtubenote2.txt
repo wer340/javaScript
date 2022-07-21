@@ -22,3 +22,6 @@ events modle
 EventEmitter name favorite use
 emit() method that noise  and signalling  happen event
 addlistenr   we have always on alias  name 
+
+5---http module
+server method 

@@ -1,0 +1,6 @@
+two category of type 
+primitive/value types number bolean string null undefined
+reference type  object array function
+static type    string name ="scarlett"
+dynamic type  let name="scarlett"
+change property obj    person["name"]="emilia"

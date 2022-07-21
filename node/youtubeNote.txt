@@ -53,5 +53,10 @@ npm install -g jshint install
 4----module wrapper
 var and func define in module
 the private and not visible from outside might be wondring how node does this
-first line make syntax erro  line 1  not break line run code  unexpected token
-(function (exports, require, module, __filename, __dirname) 
+first line make syntax erro  line 1  not break line run code  unexpected token 
+node does not excute this code directly it wrap it inside of a function this 
+function that write  is our code and then we have the end of this function
+(function (exports, require, module, __filename, __dirname){
+//our code
+})
+

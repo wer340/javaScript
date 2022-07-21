@@ -1,0 +1,24 @@
+test driven development  tdd
+doc >node 
+http
+process
+fs every method pair and couple  sync and async  <deafult async>
+http
+path .parse
+query string  es2015 and higher ` ${}`  ~ python f' {}'
+stream
+os totalmem
+os freemem
+require("path")  look for in console.log("module")
+node it assume that this is a built in module 
+
+
+2---event module
+ome of core consept
+a lot core functionality on this consept of events 
+event a signal that event has happen in application or not
+http given a port every time request  event happen
+events modle 
+EventEmitter name favorite use
+emit() method that noise  and signalling  happen event
+addlistenr   we have always on alias  name 

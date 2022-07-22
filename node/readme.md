@@ -28,6 +28,7 @@ and in fact atom the code editor that we have been using all of this time
 is based on node js 
 so now with node js you can write js code not just in browser to affect behavior
 of your website but also write full application that work on your computer
+
 ---
 # module
 does not have window  and document object 
@@ -56,9 +57,12 @@ in node every file is module  `console.log(module)`
 so conclution  every `var` and `function`  defined in module scope
 module scope
 ![module](https://raw.githubusercontent.com/wer340/javaScript/main/node/images/moduleer.png)
-node pre deafult like app.js as main 
-js hint tool  for happing this wrong
-if one function   module.export=funnc    const name=require()   name()
-npm install -g jshint install
+node pre deafult [like app.js](https://stackoverflow.com/questions/36002413/conventions-for-app-js-index-js-and-server-js-in-node-js) as main 
+# debug 
+`npm install -g jshint install`
+#### js hint tool  for happing this wrong
+run  open command line  type  `jshint name.js`
+if one function 
+
 # important
 ![modul](https://raw.githubusercontent.com/wer340/javaScript/main/node/images/modula.png)

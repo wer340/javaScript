@@ -57,7 +57,7 @@ in node every file is module  `console.log(module)`
 so conclution  every `var` and `function`  defined in module scope
 module scope
 ![module](https://raw.githubusercontent.com/wer340/javaScript/main/node/images/moduleer.png)
-node pre deafult [like app.js](https://stackoverflow.com/questions/36002413/conventions-for-app-js-index-js-and-server-js-in-node-js) as main 
+##### node pre deafult [like app.js](https://stackoverflow.com/questions/36002413/conventions-for-app-js-index-js-and-server-js-in-node-js) as main 
 # debug 
 `npm install -g jshint install`
 #### js hint tool  for happing this wrong

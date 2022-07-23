@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=VywxIQ2ZXw4&ab_channel=freeCodeCamp.org
+
+1--
+postman    setting > theme  dark
+https://simple-books-api.glitch.me
+tab top left    workspace  
+http  hypertext transfer protocol https s secure connection
+create collection for save
+select endpoint  with drag  and hover  set variable   set a name   woulnt like repetive each time
+click three dot  on collection  > edit   > variable tab    change  var✅
+inital var  for share   current value  secret  private 

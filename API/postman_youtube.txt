@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=VywxIQ2ZXw4&ab_channel=freeCodeCamp.org
+﻿https://www.youtube.com/watch?v=VywxIQ2ZXw4&ab_channel=freeCodeCamp.org
 
 1--
 postman    setting > theme  dark
@@ -9,3 +9,50 @@ create collection for save
 select endpoint  with drag  and hover  set variable   set a name   woulnt like repetive each time
 click three dot  on collection  > edit   > variable tab    change  var✅
 inital var  for share   current value  secret  private 
+query dont make sense   ignore    
+two diffrent  thing capital and lower letter
+path parameter
+2---post 
+body > raw  >  json
+post usually have  body 
+initail value  for access key  ---  no share one 
+post method proably need to authenticate 
+400 you issu  500 server issue 
+in box request  on tab authentication   bearer token add api
+post method   dont use  parameter  same get method  post usaually body term of json
+"customerName":"{{$randomFirstName}}" var pre store
+for tryout api with random name 
+use console in bottom of screen    for request and response
+console is good for debuging
+patch  is one of this  method of http that send body 
+
+:orderId > means   this parameter   value needed  that in[ut in parameter tab
+-----
+second part
+replace manul  test api   automation api
+tab test in request box    postman also  code snippet 
+that dont have to write code   [code-java-script]
+
+why do you  need parse
+the reason for that is what you see here this is json but this 
+is essentially just text its not an object that we can use inside java script
+so for that reason javascript what we will do is we are going to define
+varible  
+postman has  varible for global scope top right corner eye icon click
+see global variable
+book["id"]~ book.id  2 way  current-stock   book["current-stock"]
+
+run all collection
+drag tab collection to enviement 
+collection runner 
+in task  first test   postman.setNextRequest("name other test")
+or alternative way  move[drag] test inside collection  
+ postman.setNextRequest("null") dont go any here avoid of loop 
+monitor your api   that is active >debug hard
+usually initail value acces key  not define for secure
+new man a cli tool that take a postman collection
+export colllection or share   for get collection postman
+newman run postman-export.json or linksite
+html report with newman
+npm i newman
+newman run postman-export.json -r htmlextra

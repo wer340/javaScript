@@ -1,0 +1,6 @@
+4---
+template
+ejs embeded javaScript templating
+ejs.co
+npm i ejs
+<%=  %> 

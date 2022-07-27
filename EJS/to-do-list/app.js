@@ -2,16 +2,22 @@ const express=require("express")
 const bodyParser=require("body-parser")
 
 const app=express()
+app.set("view engine",'ejs')
 app.use(bodyParser.urlencoded({extended:true}))
 
 app.get("/",(req,res)=>{
+    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 var tday=new Date();
+var day =""
 if(tday.getDay()==4 || tday.getDay==5){
-    res.send("its weekend")
+   day="weekend";
 }
 else{
-    res.send("its work day")
+    day="worked"
 }
+
+console.log(days[5])
+res.render("list",{thisDay:day , nameDay:days[5]})
 })
 
 

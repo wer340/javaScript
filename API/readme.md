@@ -1,6 +1,7 @@
 # api `a`plication   `p`rogramming `i`nterface
 
 ---
+![menu](https://raw.githubusercontent.com/wer340/javaScript/main/API/images/grasp_API2.png)
 an apllication programming interface (API) is a set of commadnds functions
 protocols and objects that programmer can use to create software or interact
 with an external system
@@ -17,9 +18,10 @@ with their data
 
 ---
 # Endpoint+paths+parameters+Authentication  💢
-
+![four](https://raw.githubusercontent.com/wer340/javaScript/main/API/images/api_four2.png)
 ## Endpoint
 ## paths
 ## parameters
 ## Authentication
 each of Api show you each of thing do
+![api](https://raw.githubusercontent.com/wer340/javaScript/main/API/images/mechanizm_API.png)

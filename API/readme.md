@@ -23,5 +23,6 @@ with their data
 ## paths
 ## parameters
 ## Authentication
-each of Api show you each of thing do
+
+---
 ![api](https://raw.githubusercontent.com/wer340/javaScript/main/API/images/mechanizm_API.png)

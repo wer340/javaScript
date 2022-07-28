@@ -33,6 +33,11 @@ var list=["Meryl Streep", "Ingrid Bergman", "Vivien Leigh",  "Jodie Foster", "Ka
 name.length /* 8    */
 list.length /*5 */
 ```
+# calc
+```js
+var number=2.34354545;
+number=number.toFixed(3)
+```
 # loop 
 ```js
 while(condition){  /* condition ▶5>3[True] */

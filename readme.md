@@ -36,7 +36,7 @@ list.length /*5 */
 # calc
 ```js
 var number=2.34354545;
-number=number.toFix(3)
+number=number.toFixed(3)
 ```
 # loop 
 ```js

@@ -3,4 +3,7 @@ template
 ejs embeded javaScript templating
 ejs.co
 npm i ejs
-<%=  %> 
+<%=  %>
+<% if()  %>  only flow control  html tag outside
+
+ 

@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=v0QTqHXiVNw&ab_channel=DevEd
+1--callstack
+callstack a data structure  thats way runing function
+main() is 
+first thing happening is when our code actually runs 
+ to whole file so the whole API that this main() thing gets
+created and all that is just it just shows us that file start
+runing 
+2--IIFE immedately invoke function expression
+(func)()
+
+3----scope
+global scope  function scope
+
+4--
+callback[cb] promises and async
+http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D

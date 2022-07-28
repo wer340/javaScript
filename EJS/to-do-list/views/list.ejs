@@ -9,6 +9,10 @@
 <body>
     <h1>this is a <%= thisDay %>   day </h1>
     <h1>this is a <%= nameDay %>   day </h1>
-    
+    <% if(thisDay=="weekend"){ %> 
+    <img src="./1.jpg">
+    <% }else { %>
+        <img src="./2.jpg">
+        <% } %> 
 </body>
 </html>

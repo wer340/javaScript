@@ -22,6 +22,9 @@ inspect developer> source tab > >> button >snippp
 + string
 + number
 + boolean
++ undefined  like `var x;`
++ null
++ symbol
 ```js 
 var fruits="banana";
 var countCar=23;

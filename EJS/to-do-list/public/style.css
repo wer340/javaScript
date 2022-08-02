@@ -1,0 +1,10 @@
+h1{
+    color: brown;
+}
+img{
+    width: 100%;
+}
+.item{
+    width: 23%;
+    display: inline-block;
+}

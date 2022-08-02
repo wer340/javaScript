@@ -2,3 +2,4 @@ https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=8s&ab_channel=JSConf
 1--
 so weird rather than other lang
 delay()
+https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke

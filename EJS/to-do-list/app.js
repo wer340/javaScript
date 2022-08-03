@@ -3,25 +3,34 @@ const bodyParser=require("body-parser")
 
 const app=express()
 app.use(express.static("public"))
-app.use(express.static("views"))
-app.use(express.static("/"))
 app.set("view engine",'ejs')
 app.use(bodyParser.urlencoded({extended:true}))
-
+const item=[]
 app.get("/",(req,res)=>{
-    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 var tday=new Date();
-var day =""
-if(tday.getDay()==4 || tday.getDay==5){
-   day="weekend";
+var option={
+    year:"numeric",
+    month:"long",
+    day:"numeric",
+    weekday:"long"
 }
-else{
-    day="worked"
-}
-
-console.log(days[5])
-res.render("list",{thisDay:day , nameDay:days[5]})
+var day=tday.toLocaleDateString("en-US",option)
+console.log(typeof(day))
+res.render("list",{thisDay:day})
 })
+
+app.get("/imdb/",(req,res)=>{
+
+
+   res.render("form",{listActer:item})
+})
+app.post("/imdb/",(req,res)=>{
+
+    item.push(req.body.acter)
+    res.redirect("/imdb/")
+})
+
+
 
 
 app.listen(3000,()=>{

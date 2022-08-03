@@ -8,3 +8,11 @@ img{
     width: 23%;
     display: inline-block;
 }
+li{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+.wrapper{
+    display: inline-block;
+}

@@ -6,9 +6,12 @@ app.set("view engine " ,"ejs")
  res.render(name_file_view_js,data)
 mkdir views
 npm i ejs
+this  tag of ejs  cuses  of  can be used power js in html
 <%=  %> pass value to ejs 
 
 <% if()  %>  only flow control  html tag outside
 
+in app.js   only  one res.render({}) cant  each route define a reneder
 
+res.redirect("/")
 

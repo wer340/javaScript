@@ -14,7 +14,11 @@ european standardize `ecma` script ES6 ,.. ecma `e`uropean `c`omputer `m`anufact
 |python|interpater|
 |Ruby|interpater|
 -----
+## variable let const var
+✔function scope  each of them Local
+block code if for .. ✔let and const Local   ⛔but var Global   
 
+---
 ##### js suporrted all major browser
 inspect developer> source tab > >> button >snippp
 
@@ -24,7 +28,8 @@ inspect developer> source tab > >> button >snippp
 + boolean
 + undefined  like `var x;`
 + null
-+ symbol
++ symbol 
+
 ```js 
 var fruits="banana";
 var countCar=23;

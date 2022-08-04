@@ -14,4 +14,26 @@ this  tag of ejs  cuses  of  can be used power js in html
 in app.js   only  one res.render({}) cant  each route define a reneder
 
 res.redirect("/")
+let var const 
+function each of them  local
+in code block if else for ...   var global    let and const local
+try  use not var as  global 
 
+8--
+express  serve  app.js and views   as  serve  for server
+till say thats this  serve   expres dont serve any  file 
+so  public folder   by  express.static() serve for express
+contrastly js front end  that each file serve 
+app.js  like access point
+<input autocomplete="off">  no suggest
+
+layout  in ejs
+make footer.ejs  and header.ejs
+<%- include("header")  -%>
+https://www.w3schools.com/cssref/css_selectors.asp 
+https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/
+
+const explain
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+
+.

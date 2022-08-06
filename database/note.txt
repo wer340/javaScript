@@ -1,0 +1,22 @@
+1--
+https://www.internetlivestats.com/
+https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis/
+main diffent between database  
+sql base  or no sql base
+structure query language  older than rather nosql 
+not only structure query language
+my sql  postgresql 
+mongo db  redis
+and all people confuse to when   to use  which and what are 
+similarties and differencess and how do you choose anyway
+talk about   sql and nosql
+first diffrence in structure 
+relation sql
+non-relation  nosql 
+
+instead you have to know your particular situstion is to choose the 
+right database
+
+nosql   is scalblity this is a real strong point of db
+its  data getting large  data base slower
+nosql  use json  use small space of resource

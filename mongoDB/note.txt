@@ -1,0 +1,90 @@
+1---
+mongo --version
+from documentaion
+https://www.mongodb.com/try/download/community?tck=docs_server
+2----install mongo db
+https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514
+custom install  window 7  version 4.03
+and uncheck data compass option
+go to the c drive  make c:\\ mkdir  datathen cd data then mkdir db    save database
+go to the c   c:// touch .bash_profile  as admistrator
+type ls -a   look bash_profile
+> vim editor  >    vim .bash_profile
+paste in  shift+insert
+version 4  for  2021   new version edit number
+alias mongod="/c/Program\ Files/MongoDB/Server/4.0/bin/mongod.exe"
+alias mongo="/c/Program\ Files/MongoDB/Server/4.0/bin/mongo.exe"
+C:\Program Files\MongoDB\Server\4.0\bin
+--->C:\Program Files\MongoDB\Server\4.0\bin
+this two adrres  for alias 
+then  esc   for out of insert spcae
+then type   :wq!    save and quit from vim editor
+3---
+mongodb documentation   
+get strated -> mongoDB CRUD opreations 
+so first time look a db sys   see to crud operation
+when write command mongod  like localhost:3000  serve up
+this case db serve up this particular port  27017
+> [angle bracket] 
+when write mongo  you ready for mongo shell for interact with db
+type help  for guide if dont have knowledge
+show dbs  show db name
+use namedb    make  new database  because dont exist data in new db  
+this db dont show  this name  with command show dbs
+db.collaction.insertone({})
+collection in mongodb  similar to table in sql db
+> show collections
+1-use namedb
+db > check your status db
+2-db.products.insertOne({_id:2,name:"pencil",price:0.8})
+3-show collections    check  collection  build 
+
+4------- read
+db.collections.find(query,projection )
+db.collections.find() bring all the products
+https://www.mongodb.com/docs/manual/reference/operator/query/
+db.products.find({name:"pen"})
+db.products.find({price:{$gt:1}})
+projecton optional second arg
+db.collections.find(price:{$gt:1}},{name:1,price:0})
+retuen name  dont return price   1 true  0 false
+id always return by default 
+5----update data
+db.collaction.updateOne({{_id:2},{$set:{price:34}})
+**best practise** field[key]  given double qoute {"_id":1}
+
+6---- delete data
+db.collections.deleteOne()
+db.collections.deleteMany()
+
+7----relationships in mongodb
+sub document     make array in field 
+review:[{},{},{}]
+ a collection  made  -->  { oredernumber:232424,pruduct:["id","id"]} id product
+db.products.insertOne({
+    "_id":3,
+    "name":"paper",
+    "price":1.2,
+    "stock":78,
+    "review":[
+        {"autherName":"this product is disgusting wish never bought it"},
+        {"score":"****"}
+        
+   
+    ]
+})
+====
+8---- working with native mongodb driver
+is difficult work pure mongodb
+so we need to learn hoe to integrate all mongodb database
+with on node.js  application
+another id to use a ODM  object document Mapper thats called 
+mongoose this is most pupualr way working mongodb and nodejs
+throught using this package called mongoose
+it vastly simplifies and cut down on the code
+go to the mongodb  > driverd section  deffrent languges
+--> npm i mongodb 
+assert package control validate
+a lot of  rarly to mongodb driver its not beacuse its not good
+===
+https://www.mongodb.com/docs/drivers/node/current/quick-start/

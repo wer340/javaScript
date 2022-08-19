@@ -1,0 +1,42 @@
+1---
+https://www.w3schools.com/sql/
+create read  update destroy    CRUD
+
+https://sqliteonline.com/
+
+sql  create table name( id INt,)
+
+data type
+INSERT INTO table_name
+VALUES(id,name,price)
+or 
+INSERT INTO table_name(id,name)
+VALUES(2,"pen")
+
+select name_column from  table 
+select * productd where id=1
+
+!!!!dangeros update  
+update products
+set price=0.8 
+............... 
+update products
+set price=0.8 
+where id=1
+-------------
+!!!!dangerous 
+DELETE FROM products
+.........................
+DELETE FROM products
+WHERE name=pen
+....
+add culomn to table
+Alter table  name_table
+add stock int  
+
+
+
+5---
+foregin key is going to be the key thats going to link all 
+table together this is whats going to establish the relationship
+as they show  

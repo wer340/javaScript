@@ -1,0 +1,21 @@
+1----mongoose
+https://mongoosejs.com/
+use namedb 
+when be on namedb  then
+ > db.dropDatabase()  remove db
+npm i mongoose
+
+mongoose.connect("mongodb://localhost:27017/db")
+this is basically a blueprint or the structure of our data 
+that we are going to save into our mongodb database
+schema  
+new mongoose.Schema({name:String ,age:Number })
+then  model  make collection 
+const Class[pascalCase]=mongoos.model("nameCollection",madedShema)
+mongodb  automaticly capitall letter of name collection convert 
+lower case and plural   means +s  Fruit --> fruits  
+nameCollection  ==> pluralized  person ==>people (plural)
+pretty clever to converting plural
+
+
+

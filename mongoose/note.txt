@@ -30,3 +30,10 @@ new mongoose.Schema(
 4-----delete and update
 Fruit.updateOne({_id:   },{name:"newname"},(err)=>{})
 Fruit.deleteOne({_id:   },(err)=>{})
+deleteMany()   many doc delete
+5----embed doc to each other
+relationship   collections
+we not add field without declare in shcema
+const favoriteSchema=new mongoose.Schema({name:String ,age:Number })
+new mongoose.Schema({name:String ,age:Number ,favoritcolc:favoriteSchema})
+in result see favorite doc log into your doc  

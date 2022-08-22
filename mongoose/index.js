@@ -2,18 +2,22 @@ const mongoose=require("mongoose")
 
 mongoose.connect("mongodb://localhost:27017/movies",{useNewUrlParser:true})
 
-console.log("ssssss")
 
-const movieSchema=new mongoose.Schema({
-    name:String,
-    year:{type:Number ,required:[true,"please correct and full year"]}
-    
-})
 const personSchema=new mongoose.Schema({
     name:String,
     age:Number,
     movie:String
 })
+//! shchema movie
+const movieSchema=new mongoose.Schema({
+    name:String,
+    year:{type:Number ,required:[true,"please correct and full year"]},
+    actor:personSchema
+
+
+    
+})
+
 const Movie=mongoose.model("movie",movieSchema)
 const Person=mongoose.model("person",personSchema)
 // !insert data function
@@ -63,9 +67,9 @@ if(err){
 }
 
 //!update one
-async function update(Data,idp,newedit){
+async function update(Data,namev,newedit){
     Data.updateOne(
-        {"_id":idp},{"name":newedit},(err)=>{
+        {name:namev},{actor:newedit},(err)=>{
           if(err){  console.log("update error",err)
         }else
         {
@@ -73,6 +77,7 @@ async function update(Data,idp,newedit){
             }
         }
     )
+   
 }
 
 // !delete
@@ -89,5 +94,12 @@ async function deleteDoc(Data,idp){
 }
 //insertData({name:"apartment"})
 //update(Movie,"63038a8929adeb36bc7198b6","Avatar")
-deleteDoc(Movie,"63038a7713df7c9d643ee680")
-readDb(Movie)
+//deleteDoc(Movie,"63038a7713df7c9d643ee680")
+const audry=new Person({name:"audry",age:32,movie:"breakfast at tiffany"
+
+})
+audry.save()
+//insertData({name:"breakfast at tiffany",year:1958,actor:audry})
+//6303bce945bcf78c8b18efa9
+update(Movie,"Batman",audry)
+//readDb(Movie)

@@ -63,8 +63,8 @@ if(err){
 }
 
 //!update one
-async function update(Date,idp,newedit){
-    Date.updateOne(
+async function update(Data,idp,newedit){
+    Data.updateOne(
         {"_id":idp},{"name":newedit},(err)=>{
           if(err){  console.log("update error",err)
         }else
@@ -74,6 +74,20 @@ async function update(Date,idp,newedit){
         }
     )
 }
+
+// !delete
+async function deleteDoc(Data,idp){
+    Data.deleteOne(
+        {"_id":idp},(err)=>{
+          if(err){  console.log("Delete error",err)
+        }else
+        {
+                console.log(" Delete successfully ")
+            }
+        }
+    )
+}
 //insertData({name:"apartment"})
-update(Movie,"63038a8929adeb36bc7198b6","Avatar")
+//update(Movie,"63038a8929adeb36bc7198b6","Avatar")
+deleteDoc(Movie,"63038a7713df7c9d643ee680")
 readDb(Movie)

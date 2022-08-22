@@ -29,3 +29,4 @@ new mongoose.Schema(
 
 4-----delete and update
 Fruit.updateOne({_id:   },{name:"newname"},(err)=>{})
+Fruit.deleteOne({_id:   },(err)=>{})

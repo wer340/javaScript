@@ -61,5 +61,19 @@ if(err){
 }
 })
 }
-insertData({name:"apartment"})
+
+//!update one
+async function update(Date,idp,newedit){
+    Date.updateOne(
+        {"_id":idp},{"name":newedit},(err)=>{
+          if(err){  console.log("update error",err)
+        }else
+        {
+                console.log(" Update successfully ")
+            }
+        }
+    )
+}
+//insertData({name:"apartment"})
+update(Movie,"63038a8929adeb36bc7198b6","Avatar")
 readDb(Movie)

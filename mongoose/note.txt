@@ -25,4 +25,7 @@ mongoose.connection.close()
 3----validation
 mongoose validtion section
 new mongoose.Schema(
-{name:{type:String,min:3,max:19} ,age:Number })
+{name:{type:String,min:3,max:19,required:[true,"please check field name"]} ,age:Number })
+
+4-----delete and update
+Fruit.updateOne({_id:   },{name:"newname"},(err)=>{})

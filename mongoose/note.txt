@@ -17,5 +17,12 @@ lower case and plural   means +s  Fruit --> fruits
 nameCollection  ==> pluralized  person ==>people (plural)
 pretty clever to converting plural
 
-
-
+2----
+Class.find((err,people)=>{if err =>  else people })
+when node index.js run  we close with control +c 
+beacuse we not close mongoose after us task and connection keeping connect
+mongoose.connection.close()
+3----validation
+mongoose validtion section
+new mongoose.Schema(
+{name:{type:String,min:3,max:19} ,age:Number })

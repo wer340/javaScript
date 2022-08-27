@@ -14,7 +14,7 @@ then  model  make collection
 const Class[pascalCase]=mongoos.model("nameCollection",madedShema)
 mongodb  automaticly capitall letter of name collection convert 
 lower case and plural   means +s  Fruit --> fruits  
-nameCollection  ==> pluralized  person ==>people (plural)
+nameCollection  ==> pluralized  person(singular name) ==>people (plural)
 pretty clever to converting plural
 
 2----
@@ -37,3 +37,6 @@ we not add field without declare in shcema
 const favoriteSchema=new mongoose.Schema({name:String ,age:Number })
 new mongoose.Schema({name:String ,age:Number ,favoritcolc:favoriteSchema})
 in result see favorite doc log into your doc  
+
+
+6---- deep work book

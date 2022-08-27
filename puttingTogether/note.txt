@@ -1,0 +1,19 @@
+1-----
+
+insertMany([]) accept array as input  and handle it
+
+2----- 
+db.dropDatabase()
+db.collections.drop()
+find({},(err,answer)=>{})  for render
+how can array check is empty ? arry.length===0
+type=checkbox   onChange=this.form.submit()
+<input type=checkbox  name=checkbox value=<%=  %> >
+for type check box use value    for text name enough
+
+mongoose
+findByIdAndRemove(id,()=>{})
+it when execute callback write   is actullay needed 
+5---- dynamic route
+get("/:coustomname,)
+req.params.coustomname

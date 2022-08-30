@@ -1,0 +1,49 @@
+1--- react  aa java script library
+vastly simplfy  structure 
+<body>
+<MyHeader />
+<PageContent />
+<MyFooter />
+</body>
+✔component
+that previosly we haave always tried to keep our HTML css js  seprate .But react does and what it realy benefits from is actually 
+combining small amount of each of these type of file into a single component so that each component has its own styling 
+its own functionality that it controls  and you can create several of these component to each perform a different function and have
+a different apperance 
+these days component handled and updating itself and its own appearance and data being able to talk to the server independently
+react keep old  dom  and look diffrence between old dom  and new dom then re render this feature thats changed  
+✅react is not the only frontend framwork out there 
+https://www.indeed.com/   job✔
+
+2---
+many things jsx   props   styling  hooks useState   virtual Dom  components 
+https://codesandbox.io/
+3---intro sandbox
+change font   console     this app similar  to vscode  
+
+4----
+index.html is entry point   by convention we alwayse create a div html element that has an id of root 
+and this is basically the root of your react application
+everything that we create using react is going to be inserted inside this div 
+in bottom also  index.js exist  
+
+min needed  t implent react  react  and  reac-dom
+
+reactDom.render("what  show ","where put ")      ~ --> (<h1>hello</h1>,document.getElementById("root"))
+notice  script index.js    add to index.html
+inject ele,ent tag to html file 
+✅we are able to write plain HTML without any sort of fancy angle brackets or for example  the ejs bracket or anything 
+to denote that this somehow not javascript so waht exactly is this magic ?
+well this is what jsx does. react works by creating these jsx files so files where we have got HTML right in the body of a 
+javascript file and what happened behind the  scenes is that our HTML is picked up by a compiler  and gets converted or
+compiled down to actual javascript  and comiler come from including this react module right here 
+so you can  see that if i go heaad and comment this out[require("react")] then we are going to be geting some major problems 
+so inside the react module there is something called Babel . and babel[aprounn : bybel] , as they tell you is a javaScript compiler
+so its aable to take next genration javascript  like es6 , 7, 8  and compile it down that every browser acan understand
+and this include compiling jsx down to plain old javascript 
+  https://babeljs.io/repl  try out
+ReactDom.render( /*#__PURE__*/React.createElement("h1", null, "hello world"), document.getElementById("root"));
+convert down javascript
+✅✅so  import    reactdom  from react-dom   by using  import and the export keyword we are able to modularise these dependency
+far better  we end up with code thats better organizaed 
+single html element handle  by arg render if have two element  put this div element then work this code 

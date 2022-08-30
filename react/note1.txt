@@ -1,4 +1,4 @@
-1--- react  aa java script library
+﻿1--- react  aa java script library
 vastly simplfy  structure 
 <body>
 <MyHeader />
@@ -47,3 +47,15 @@ convert down javascript
 ✅✅so  import    reactdom  from react-dom   by using  import and the export keyword we are able to modularise these dependency
 far better  we end up with code thats better organizaed 
 single html element handle  by arg render if have two element  put this div element then work this code 
+5----practise
+
+6---jsx
+we saw that we able to insert html to java script by using jsx
+and this ablitiy came from jsx  jxs  further this idea  and lets allow 
+that insert js to html  that this html is inside javascript
+with curly brace handle    render(<h1>hello {name}</h1>,arg2[where show])
+react accept  inside culy brace {}  expresion      not statement
+statement  if   for  
+if you want a bit more detail on expressions versus statement in javascript there realy good
+video in youtube 
+https://www.youtube.com/watch?v=WVyCrI1cHi8&ab_channel=Codexpanse

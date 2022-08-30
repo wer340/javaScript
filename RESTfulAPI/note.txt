@@ -1,0 +1,39 @@
+1----  representional state  transfer
+client and server talk together with specifiec lang
+thats lang is http request and ftp
+if talk to server to other lang  server dont understand ypur lang
+http hyper text transfer protocol    secure
+in order to give us that result the server do one of two things  
+it might do some computation run some code to work  out result that
+might need to communicate to databse in order to grab the relevent
+piece of data that client requested  
+also there only a certain amount of thing that the server can do 
+example resturant  you would have a menu of items that thid particular
+resaurant would serve
+the server will have a bunch of API which are services that it
+can expose for client be able to tap into 
+so when we are building an api we are kind of like building the menu
+of thing that our server can respond 
+--> api usage   api build  this topic api build 
+client  dont send every req with every job
+now that we understand all there component what does it mean to make 
+our API RESTful ?
+well REST is essentially just an architectural style
+REST is an architetural style for designing API and its definitly not only
+architectural  so the other realy realy popular one before REST  became 
+the dominant style was SOAP   other name FALCOR and  GraphQL
+but the gold standard for web API is REST
+rest from   part of phd guys Roy Fielding california university
+every web API was built using the same common guiding principle
+then it would be so easy for everybody to work together and be able
+to use different APIs quickly easily and efficiently
+so  follow two imortant rule
+1-use http request verbs
+GET POST PATCH PUT DELETE
+might  realize that they have alot of similarity to something 
+data base module CRUD
+2-use specific pattern of route /endpoint URLs
+
+
+
+

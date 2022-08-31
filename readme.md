@@ -19,6 +19,18 @@ european standardize `ecma` script ES6 ,.. ecma `e`uropean `c`omputer `m`anufact
 + block code if for .. ✔`let` and `const` Local   ⛔but `var` Global   
 
 ---
+
+## [expression and statement](https://www.youtube.com/watch?v=WVyCrI1cHi8&ab_channel=Codexpanse)
+`if`   `for`  `while`   is statement they just perform acions and control actions but dont become values
+in expression finally expect to return a   value    expression replace with value 
+```js
+console.log(const x);  //error
+let b =if (x>10) {return 1100;};  // error 
+function getu(){}
+let c= getu()  //expression
+
+```
+
 ##### js suporrted all major browser
 inspect developer> source tab > >> button >snippp
 

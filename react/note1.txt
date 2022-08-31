@@ -55,7 +55,26 @@ and this ablitiy came from jsx  jxs  further this idea  and lets allow
 that insert js to html  that this html is inside javascript
 with curly brace handle    render(<h1>hello {name}</h1>,arg2[where show])
 react accept  inside culy brace {}  expresion      not statement
-statement  if   for  
+statement  `if`   `for`  `while`   is statement they just perform acions and control actions but dont become values
+let b =if (x>10) {return 1100;};  // error 
+
 if you want a bit more detail on expressions versus statement in javascript there realy good
 video in youtube 
 https://www.youtube.com/watch?v=WVyCrI1cHi8&ab_channel=Codexpanse
+
+7---practise 
+
+8---add style
+if you class name on tag   you see  style  perform  but  if open new window  and check consloe you see error
+invalid dom property 'class' did you mean classname    use classname [js property] rather than claass
+waarring unspect token "<"    becaause  not regonize  <!DOCTYPE html>    angle bracket
+reason  isa becaause it dosnt know  that this  index.js  is in fact a jsx file that include html element rather than
+just a bog standard normal javascript file how can you tell it is jsx file? 
+<script src="../src/index.js" type="text/javascript"></script>
+<script src="../src/index.js" type="text/jsx"></script>
+https://www.w3schools.com/tags/ref_standardattributes.asp
+contenteditable="true"
+documention stil recommamnd to apply all your styling through classses that you specify within a css file and then applying 
+✅it to your jsx file using this class name attribute 
+notice  all of thing learn in css not invalid   caseus of jsx
+https://picsum.photos/ 

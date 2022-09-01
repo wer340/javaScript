@@ -77,4 +77,37 @@ contenteditable="true"
 documention stil recommamnd to apply all your styling through classses that you specify within a css file and then applying 
 ✅it to your jsx file using this class name attribute 
 notice  all of thing learn in css not invalid   caseus of jsx
-https://picsum.photos/ 
+https://picsum.photos/
+9---- style in line 
+<h1 style="color:red"> this method is not work  because jsx  dont understand
+this string  for  sytle is value of style   java script  fetch term of object
+key value till work   means  <h1 style={{color:"red"}}
+style property require a value that is a javascript object and that object
+in order for it to be interpreted correctly inside an HTML element has to a set 
+of curly brace{}  around of normal expression 
+altough react documentation recommand to use style term of class base  but 
+few  state  like on the fly style inline is   useful 
+style property is kebab case   font-size --> fontSize
+const styleCoustome={fontSize:20px ,color:"red" }   
+change property of object --> styleCoustome.color="blue"
+10----practise
+
+11---- component
+break down a large web site into individual compact and reusable components
+component allows to sp;it up a large file or a complex web structure into smaller
+component and reusing 
+in react convition   function name component is pascal case
+function Heading(){return <h1>hello world </h1>}
+use this component  <Heading></Heading>  bestpratise for componnet no thing 
+to tag   use self closing tag <Heading/>  pascal case
+Guide airbnb   Naming section
+https://github.com/airbnb/javascript/tree/master/react
+
+so if  very large site  cant write each componnent in one file
+so use ES6 feature  where we import our heading component from seprate file
+each componnent    name    Heading.jsx   till denote this componnet  used jsx
+but  by convition  index.js(entry point) put js extention although use jsx in file
+in componnent file  if import react    can use  jsx    convert by babel to down version
+export deafult Heading;   not use  pranthesses till immeditly dont run
+import Heading from "./Heading.jsx"
+we collect all componnent import to App component then add App to index

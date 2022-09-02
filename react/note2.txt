@@ -1,0 +1,21 @@
+13----import ES6
+better understand what it is that we are doing when we are importing react 
+from the react module and how does it actually work behind the scense
+export deafult pi;
+export {name ,name}
+import arbitrray name[deafult],{exact name,exact name} from "./file"
+we   can call deafult export with each name but  {name,name}  must be
+write exactlly same thing  
+
+import React from "react"
+var React =require("react")
+same   both correct
+this require function actually come from Node itself not javascript
+use  ES6 because the browser penetration of ES6 is something like 80%at the moment
+so that mean 80% can render
+you can use wildcard   import * from "./file"
+15---- setup  react
+a.check node is up to date
+b.install vscode
+c.creat react app   > npx create-react-app  name project
+d.run

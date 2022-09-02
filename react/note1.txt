@@ -111,3 +111,5 @@ in componnent file  if import react    can use  jsx    convert by babel to down 
 export deafult Heading;   not use  pranthesses till immeditly dont run
 import Heading from "./Heading.jsx"
 we collect all componnent import to App component then add App to index
+into app
+return <div><Heding/></div>

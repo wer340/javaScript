@@ -19,3 +19,62 @@ a.check node is up to date
 b.install vscode
 c.creat react app   > npx create-react-app  name project
 d.run
+19----props
+this feture simalar to html attribute
+in element  <input  value=""  name=""  placehollder=""   >
+with such a way can   declare <Heading  name="" tell="" />
+for recive    in componennent  
+function Heading(props){
+<h1>{props.tell}</h1>  
+props a object thats keeping hold all attribute stick to componnent
+
+20----practise
+make a data   [{},{},{},{}]
+statement not work inside html 
+<Imgbox  name="{item.name}"  />
+how itrate array  in  <Imgbox name="{item.name}"/>   for if  while is statement not work
+21----devtools
+we want to make componnent reusable  so as much as  thats allow me   we make is smaller than
+in this  way  we handle componnent inside to other one  
+<Box name= src= >
+function Box(props){
+<Imgbox  src=props.src >
+}
+function Imgbox(props){
+	<img  src=props.src >
+}
+this way proably confusing  so  use  devtools react  thats like inspect Element but show you 
+react componnent 
+
+installl react devtools  chrome extensions
+if < >  in componnet section  can see componnent sourcecode 
+
+22----- maping
+for get out repeat
+contacts[0].name
+contacts[1].name
+contacts[2].name
+we hanlde with function
+<app />
+function createImg(item){
+return (<Imgbox
+ src={item.src}
+name={item.name}	
+/>)
+}
+function App(){
+return(
+list.map(createImg)
+)
+}
+==>notice this way  
+how in the console we are actually getting a warning here and this warning doesnt go away
+ warning tell us is taht each child in a list should have a unique key property
+this is realy important point remember how in begining i said that react is able to create 
+a virtual DOM  that represents current appearance of your website and for it to be able 
+to efficiently render components for every single componnent thats being renderd
+using a loop such as the map function we will have to give those componnent a property has 
+to be called key . and this property has to be something that is unique amongst each of 
+these card componnent thats being created using this loop
+
+23-----practise mapping
